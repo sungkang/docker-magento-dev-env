@@ -35,12 +35,10 @@ recommended resource settings:
     ```sh
     cp config/env.php.sample src/app/etc/env.php
     ```
-7. `bin/start-no-sync` to start up the containers
-8. `bin/copytocontainer --all`
-9. `bin/composer install`
-10. Get the provided magento sql dump file (ask any of the devs) and save it in `db/`
-11. `bin/clinotty mysql -hdatabase -umagento -pmagento magentodb < db/magento.sql` to seed the magento database
-12. `bin/magento setup:upgrade`
-13. `bin/clinotty mysql -hdatabase -umagento -pmagento magentodb < db/master-data.sql`
-14. `bin/magento app:config:import`
-15. `bin/setup-domain justrightpetfood.local`
+7. `bin/start` to start up the containers
+8. Get the provided magento sql dump file (ask any of the devs) and save it in `db/` as `magento.sql`
+9. `bin/seed-magento-db`
+10. `bin/copytocontainer --all`
+11. `bin/composer build-and-test`
+12. `bin/sync-master-data`
+13. `bin/setup-domain justrightpetfood.local`
