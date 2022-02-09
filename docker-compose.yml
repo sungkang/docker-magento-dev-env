@@ -26,7 +26,6 @@ services:
       - sockdata:/sock
       - ssldata:/etc/nginx/certs
     extra_hosts: &appextrahosts
-      - "host.docker.internal:172.17.0.1"
       ## M1 Mac support to fix Docker delay, see #566
       - "app:172.17.0.1"
       - "phpfpm:172.17.0.1"
@@ -54,7 +53,7 @@ services:
     extra_hosts: *appextrahosts
 
   redis-cache:
-    image: redis:5.0-alpine
+    image: redis:6.0-alpine
     ports:
       - "6379:6379"
     extra_hosts: *appextrahosts
@@ -81,8 +80,7 @@ services:
       - "5672:5672"
     volumes:
       - rabbitmqdata:/var/lib/rabbitmq
-    environment:
-      - RABBITMQ_VM_MEMORY_HIGH_WATERMARK=1GB
+    env_file: env/rabbitmq.env
     extra_hosts: *appextrahosts
 
   mailcatcher:

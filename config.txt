@@ -1,0 +1,2186 @@
+web/seo/use_rewrites - 1
+web/unsecure/base_url - https://justrightpetfood.local/
+web/unsecure/base_static_url - 
+web/unsecure/base_media_url - 
+web/secure/base_url - https://justrightpetfood.local/
+web/secure/base_static_url - 
+web/secure/base_media_url - 
+web/default_layouts/default_product_layout - product-full-width
+web/default_layouts/default_category_layout - category-full-width
+web/default_layouts/default_cms_layout - cms-full-width
+web/cookie/cookie_path - 
+web/cookie/cookie_domain - 
+web/cookie/cookie_httponly - 1
+web/cookie/cookie_lifetime - 1200
+web/default/cms_home_page - home-2021
+web/default/show_cms_breadcrumbs - 0
+general/locale/code - en_US
+general/locale/timezone - America/Chicago
+general/region/display_all - 1
+general/region/state_required - US
+general/country/destinations - US
+general/country/allow - US
+general/restriction/is_active - 0
+general/restriction/mode - 0
+general/restriction/http_redirect - 0
+general/restriction/cms_page - no-route
+general/restriction/http_status - 0
+general/store_information/name - Just Right Pet Food
+general/store_information/phone - (855) 842-0493
+general/store_information/hours - 
+general/store_information/country_id - US
+general/store_information/region_id - 36
+general/store_information/postcode - 63164-1000
+general/store_information/city - St. Louis
+general/store_information/street_line1 - 1 Checkerboard Sq
+general/store_information/street_line2 - 
+general/store_information/merchant_vat_number - 
+general/store_information/contact_type - Customer Service
+general/single_store_mode/enabled - 0
+currency/options/base - USD
+currency/options/default - USD
+currency/options/allow - USD
+currency/fixerio/api_key - 
+currency/fixerio/timeout - 100
+currency/currencyconverterapi/timeout - 100
+currency/import/service - fixerio
+currency/import/time - 00,00,00
+currency/import/frequency - D
+currency/import/error_email - 
+catalog/category/root_id - 2
+catalog/price/scope - 1
+catalog/price/default_product_price - 
+catalog/search/engine - elasticsearch7
+catalog/search/enable_eav_indexer - 1
+catalog/search/search_recommendations_enabled - 1
+catalog/search/search_recommendations_count - 5
+catalog/search/search_recommendations_count_results_enabled - 0
+catalog/search/search_suggestion_enabled - 1
+catalog/search/search_suggestion_count - 2
+catalog/search/search_suggestion_count_results_enabled - 0
+catalog/search/elasticsearch6_server_hostname - localhost
+catalog/search/elasticsearch6_server_port - 9200
+catalog/search/elasticsearch6_index_prefix - magento2
+catalog/search/elasticsearch6_enable_auth - 0
+catalog/search/elasticsearch6_server_timeout - 15
+catalog/search/elasticsearch7_server_hostname - elasticsearch
+catalog/search/elasticsearch7_server_port - 9200
+catalog/search/elasticsearch7_index_prefix - magento2
+catalog/search/elasticsearch7_enable_auth - 0
+catalog/search/elasticsearch7_server_timeout - 15
+catalog/search/elasticsearch7_minimum_should_match - 
+catalog/frontend/list_allow_all - 0
+catalog/frontend/flat_catalog_product - 0
+catalog/productalert_cron/frequency - D
+catalog/productalert_cron/time - 00,00,00
+catalog/productalert_cron/error_email - 
+catalog/product_video/youtube_api_key - 
+catalog/magento_catalogpermissions/enabled - 0
+catalog/magento_catalogpermissions/grant_catalog_category_view - 0
+catalog/magento_catalogpermissions/grant_catalog_category_view_groups - 
+catalog/magento_catalogpermissions/restricted_landing_page - no-route
+catalog/magento_catalogpermissions/grant_catalog_product_price - 0
+catalog/magento_catalogpermissions/grant_catalog_product_price_groups - 
+catalog/magento_catalogpermissions/grant_checkout_items - 0
+catalog/magento_catalogpermissions/grant_checkout_items_groups - 
+catalog/magento_catalogpermissions/deny_catalog_search - 
+catalog/downloadable/shareable - 0
+catalog/downloadable/content_disposition - inline
+catalog/custom_options/use_calendar - 0
+catalog/custom_options/year_range - ,
+catalog/magento_catalogevent/enabled - 1
+catalog/magento_catalogevent/lister_output - 1
+catalog/magento_catalogevent/lister_widget_limit - 5
+catalog/magento_catalogevent/lister_widget_scroll - 2
+catalog/magento_targetrule/related_position_limit - 6
+catalog/magento_targetrule/related_position_behavior - 0
+catalog/magento_targetrule/related_rotation_mode - 0
+catalog/magento_targetrule/crosssell_position_limit - 5
+catalog/magento_targetrule/crosssell_position_behavior - 0
+catalog/magento_targetrule/crosssell_rotation_mode - 0
+catalog/magento_targetrule/upsell_position_limit - 8
+catalog/magento_targetrule/upsell_position_behavior - 0
+catalog/magento_targetrule/upsell_rotation_mode - 0
+catalog/placeholder/image_placeholder - 
+catalog/placeholder/small_image_placeholder - 
+catalog/placeholder/swatch_image_placeholder - 
+catalog/placeholder/thumbnail_placeholder - 
+catalog/seo/product_url_suffix - 
+catalog/seo/category_url_suffix - 
+catalog/seo/category_canonical_tag - 1
+catalog/seo/product_canonical_tag - 1
+catalog/review/active - 0
+catalog/review/allow_guest - 0
+msp_securitysuite_twofactorauth/duo/application_key - 8oH9Rz6VY01QXwcSAmA8LxobeZRVxJUovku42zfNa28CvweQto0JmVZRCbnZDnXx
+analytics/subscription/enabled - 0
+analytics/general/token - IrNxTB0JvKjNKuP8PKclU1A8aHBhH9VSlRI7_23rdqWRuBFjz2w0hjphNFpyO3F7mmD8RxGwa1y4N7iztAMzRg
+analytics/general/collection_time - 02,00,00
+connector_dynamic_content/external_dynamic_content_urls/passcode - 2mxEhdX5psYABP5CGgV5CpaKkW8Gc1zm
+connector_automation/review_settings/allow_non_subscribers - 1
+connector_configuration/abandoned_carts/allow_non_subscribers - 1
+sync_settings/addressbook/allow_non_subscribers - 1
+system/full_page_cache/varnish/access_list - localhost
+system/full_page_cache/varnish/backend_host - pp-us-justrightpetfood-cache-varnish
+system/full_page_cache/varnish/backend_port - 8080
+system/full_page_cache/varnish/grace_period - 300
+system/full_page_cache/caching_application - 2
+system/mysqlmq/successful_messages_lifetime - 10080
+system/mysqlmq/retry_inprogress_after - 1440
+system/mysqlmq/failed_messages_lifetime - 10080
+system/mysqlmq/new_messages_lifetime - 10080
+system/smtp/set_return_path - 0
+system/smtp/host - silly-liger-mailhog.default.svc.cluster.local
+system/smtp/port - 1025
+system/backup/functionality_enabled - 0
+system/rotation/lifetime - 60
+system/rotation/frequency - 1
+system/bulk/lifetime - 60
+system/magento_scheduled_import_export_log/save_days - 5
+system/magento_scheduled_import_export_log/enabled - 0
+system/magento_scheduled_import_export_log/time - 00,00,00
+system/magento_scheduled_import_export_log/frequency - D
+system/magento_scheduled_import_export_log/error_email - 
+system/magento_scheduled_import_export_log/error_email_identity - general
+system/magento_scheduled_import_export_log/error_email_template - system_magento_scheduled_import_export_log_error_email_template
+system/media_storage_configuration/media_storage - 0
+system/cron/catalog_event/schedule_generate_every - 15
+system/cron/catalog_event/schedule_ahead_for - 20
+system/cron/catalog_event/schedule_lifetime - 15
+system/cron/staging/schedule_generate_every - 15
+system/cron/staging/schedule_ahead_for - 20
+system/cron/staging/schedule_lifetime - 15
+system/cron/scconnector/schedule_generate_every - 15
+system/cron/scconnector/schedule_ahead_for - 20
+system/cron/scconnector/schedule_lifetime - 15
+system/cron/amasty_base/schedule_generate_every - 15
+system/cron/amasty_base/schedule_ahead_for - 20
+system/cron/amasty_base/schedule_lifetime - 15
+system/cron/bank_transfer_status_check/schedule_generate_every - 15
+system/cron/bank_transfer_status_check/schedule_ahead_for - 20
+system/cron/bank_transfer_status_check/schedule_lifetime - 15
+system/cron/echeck_status_check/schedule_generate_every - 15
+system/cron/echeck_status_check/schedule_ahead_for - 20
+system/cron/echeck_status_check/schedule_lifetime - 15
+system/cron/firebear_importexport/schedule_generate_every - 15
+system/cron/firebear_importexport/schedule_ahead_for - 20
+system/cron/firebear_importexport/schedule_lifetime - 10
+system/cron/inactive_users_event/schedule_generate_every - 15
+system/cron/inactive_users_event/schedule_ahead_for - 20
+system/cron/inactive_users_event/schedule_lifetime - 15
+system/cron/subscription/schedule_generate_every - 30
+system/cron/subscription/schedule_ahead_for - 60
+system/cron/subscription/schedule_lifetime - 120
+system/cron/subscription/history_cleanup_every - 1440
+system/cron/subscription/history_success_lifetime - 10080
+system/cron/subscription/history_failure_lifetime - 10080
+system/cron/default/history_success_lifetime - 3600
+system/cron/subscription_paradox/history_success_lifetime - 10080
+system/cron/subscription_paradox/history_failure_lifetime - 10080
+system/cron/subscription_paradox/schedule_generate_every - 15
+system/cron/subscription_paradox/schedule_ahead_for - 30
+system/cron/subscription_paradox/schedule_lifetime - 60
+system/cron/subscription_paradox/history_cleanup_every - 1440
+crontab/default/jobs/magento_scheduled_import_export_log_clean/schedule/cron_expr - 0 0 * * *
+crontab/default/jobs/currency_rates_update/schedule/cron_expr - 0 0 * * *
+crontab/default/jobs/vertex_log_rotation/schedule/cron_expr - 0 0 * * 1
+crontab/default/jobs/catalog_product_alert/schedule/cron_expr - 0 0 * * *
+crontab/default/jobs/catalog_product_alert/run/model - 
+crontab/default/jobs/send_notification/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/send_notification/run/model - 
+crontab/default/jobs/amasty_cron_activity/schedule/cron_expr - 
+crontab/default/jobs/sales_send_order_invoice_emails/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_send_order_creditmemo_emails/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_send_order_shipment_emails/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_grid_order_shipment_async_insert/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_grid_order_invoice_async_insert/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_grid_order_creditmemo_async_insert/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/catalog_product_frontend_actions_flush/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/catalog_product_outdated_price_values_cleanup/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/mst_report_email/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_grid_order_async_insert/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/sales_send_order_emails/schedule/cron_expr - */5 * * * *
+crontab/default/jobs/newsletter_send_all/schedule/cron_expr - 
+crontab/default/jobs/sitemap_generate/schedule/cron_expr - 0 0 * * *
+crontab/default/jobs/sitemap_generate/run/model - 
+crontab/default/jobs/sales_clean_quotes/schedule/cron_expr - 
+crontab/catalog_event/jobs/catalog_event_status_checker/schedule/cron_expr - */5 * * * *
+crontab/consumers/jobs/consumers_runner/schedule/cron_expr - */15 * * * *
+crontab/staging/jobs/staging_remove_updates/schedule/cron_expr - */5 * * * *
+crontab/staging/jobs/staging_synchronize_entities_period/schedule/cron_expr - */5 * * * *
+crontab/staging/jobs/staging_apply_version/schedule/cron_expr - */5 * * * *
+crontab/index/jobs/indexer_update_all_views/schedule/cron_expr - */5 * * * *
+crontab/index/jobs/indexer_reindex_all_invalid/schedule/cron_expr - */5 * * * *
+crontab/dm/jobs/cron_dm/schedule/cron_expr - */15 * * * *
+crontab/scconnector/jobs/scconnector_retrieve_gtag/schedule/cron_expr - 
+crontab/scconnector/jobs/scconnector_verify_website/schedule/cron_expr - 
+crontab/subscription_even/jobs/subscription_first_order_bill_even/schedule/cron_expr - */5 11,16 * * *
+crontab/subscription_even/jobs/subscriptions_bill_even/schedule/cron_expr - */5 11,16 * * *
+crontab/subscription_odd/jobs/subscription_first_order_bill_odd/schedule/cron_expr - */5 11,16 * * *
+crontab/subscription_odd/jobs/subscriptions_bill_odd/schedule/cron_expr - */5 11,16 * * *
+payment/authorizenet_acceptjs/cctypes - AE,VI,MC,DI,JCB,DN
+payment/authorizenet_acceptjs/order_status - processing
+payment/authorizenet_acceptjs/payment_action - authorize
+payment/authorizenet_acceptjs/currency - USD
+payment/authorizenet_acceptjs/environment - production
+payment/authorizenet_acceptjs/login - 
+payment/authorizenet_acceptjs/trans_key - 
+payment/authorizenet_acceptjs/public_client_key - 
+payment/authorizenet_acceptjs/trans_signature_key - 
+payment/authorizenet_acceptjs/trans_md5 - 
+payment/authorizenet_acceptjs/specificcountry - 
+payment/authorizenet_acceptjs/min_order_total - 
+payment/authorizenet_acceptjs/max_order_total - 
+payment/authorizenet_acceptjs/sort_order - 
+payment/amazon_payments/simplepath/publickey - -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApyrbE5cE5znxqvgZIYkB
+9kn9IJhuUKe9nl994UYHuQIxZDfekUn/xTOfaXMbY5ge217+XjVSijGACLOIGhLv
+bSUvKMwbnx0oAaD4O0EP1+UAzJbM2BvQLRhLTO2+SnSeBH5CAVauy7GDOsZkWLj+
+fBba+FY1I1v1uxToM59Gwdz/rGX9VOWmIGndEaUpHbRhOEx0SdIpdtToawTZ3NcD
+tHP4yRiXsibu20KJfilPRftwge5gZN5PG4Hn1lr4L7hhgreu7uiXSTadhrkASXnV
+X7FvL441uziUnt/1HL5f+04TpmoZM/9ZXOkAuErJTCq4DTHLLZnpKtTqudTqVU6p
+OQIDAQAB
+-----END PUBLIC KEY-----
+payment/amazon_payments/simplepath/privatekey - 0:3:0MCb9YSoBQDbzOca/C/JkF/cRhNK1dZzPWqEs8uFa/OFWb379R/DE7oKoItV/GQ2VCfEqHjchijeU+mrVOXoAdaUHwKa/IpgBKmlMof02wXg+Ix/sZ8bktcuig32l7rsxrktv8wEJYLYYS0WH5J1UlFQ0z5fAt8fRACG5moGOI5OXP/XqimSmIwAgb3ww2OrFrpd15gXw7c5lUfK3PXLOX0mJyLg7BAl28CnjCZLD2Hg56fldQTaJO6XDQkSMheaIjXXzDnD7ZukbeDaePQfC7N6XY1g8SnnPz//jetns+SiCtd5jxh8AflYxsEAW4Ir91X4a7dOxbmyOtj8uUKssu7WJUYuMXYI7aexNXYkbIGMZYvIoMXMeh4NQvHxZoscByI/CZ9/yOMZRFaKx0sxErLdxNYl5EgWHqQOOeu59hyFnesNJAvMBOP3Q/LRyuxbLucahnn9bJCSG2pHzMbdg2GTbGmL3RGvVPVyy4+U5Ky+VJuddq1VUslmYUyGRSguzvGz5sHWl1aqvRWlUyS/Mq28yPcf4UEKhZTdSxHDWiauG1omK4rQL+Ae0v1vklwaRJtVPanvIrDcSuITuSGZyLJOtKTd7iAQYl0fE7CFdll9y4JbpmDelWi3kPnLxsa5Cs7TaaQXNbBY91CjwZuj5nQth+mDJsR87HKOmg4yNJWJ+tvyYZOX/yCsaU7g62th9anzAMqFxiQzH4SnwFRmdJD1naNybpLLu6duokRU7GsjX06Wj7ACaiwsZou89jh5/hpctH3CfQ5L4ougu7l0CFjVx7iI8nCarJFQ0sk3yPfXZaJzyEb5ByDOkoQgwgpxbf37949vXbtaiqePwWvV8A55vhqsvw82+gdFLFTSDk2Vm/SKbxxUzn5vcIyyicGFVzK9QBHLr0C6Z2Odj3vIiFE5P3FAwoEfYdHputQfkBWzmD/On0EtmbtSYIcfZsVznfCzDi1dJgwX5SiCyD2Wm8Qth4RSd6/kXsR4yQu6Agw5VjhKtTdDe8RMDxCuEj0v1jRVL8cK3xFH+Ng3VOBJb3rIXKW0sf+T2Zp6edZC3q4h7Qv7JSO2Guy6K0gpoKZ7AQxOeUUORzNW5B9sJcrjpQ+Viq15a+PAgVyyGhKDwVx+QTEqYYJsbsYmqE/crYEcEGlUhVWv9CQtG61OBE4frP9aeur+LG1xJgn5+kzNEHqUzbMnTgqnJulvTGBK67ZucDazhvcqotvNMVufKDFn4ppFOPBxuiFCZLhvBAx6Ob31fN6RnqpcTOxZ3CBa7NnPjmyYtSwpkJNaU13rw9/Vj31ahKBnbHmDSkAMclDm3P+p5f+hMGcCSeqHS3MAuAL/JgBo8r9y9G8IXO8ZBhx2gGi3KBcwEXt/unBt/FzJBW01WJ8WC6ZCSnGD497uHZ4Q7OwB7Tpg3q3BTdsVIiXJ882IM6Il94Qd8lMT8yEqr66oJlngCJ6BEwM6LM+jj07NLeOdhvXuATREy/mbri+twfsvlhLqjiT/RXBne3q3QyafDAcaxcV51YGJj56xC2jL7PZvO1MZeMtce5WNdWDxgvvaGcnKQSQGbnJ0qE0y+rvnSVbYg/lVRJqI+e6fImq8FdIOELStjqpFLvFTEigd1W3mXzTdFSC/Ud47Mv7LAwa6/c0Q1tzXGGYEHOiJKk5IDEjr4D3gxNj3x5vhTHw9lVku3hRFsLNJhewGj5/nEJaU+npbN+PHYEBHgxJy5TpJOyO91+unrWpgSYRZwxOTt6yi7vTIJJ0xRX06VaARQS6ib4WYA+sGDO6Ra/5Hvc7bT+LoqTga/o/tXiwTCienXIIda1zip44AWicdF3ckOHk5ADPS8lLjYOt0Mb4uKSjVWGl94Xr2BRdNrwKUzqc4S25gz/Xybnx49o/R3fqBV2AEc/grzlH69jbR/QJcNF9qcaCr1+5h0GRW/gcNFWdsy2fenCJUO6u7qM3DGDIHNB3yDYxTbJbluJ3b9m6lRWG3Bm4thtwZSLUZQ9clMl9X2zuKcBNoGnjHPhEwu+OTv9QS6K+POvTBzV3RG76DeNFmtCLmYuFtxhPzCrmfWBQhe/z+1x9kxTCXYZSIA59PX3n96aIQYZZTJXUkCqyncoG+6dl/x211nz+0q6wOKeElNCzAuVvckZ0DyvsMrh0PUe36mVYTEobNdzvBdjqvFGebqJ4KzdI0nQk8GQDEUuN2gW6+0yJ6pp3yEtq9xcuhvFoMk3WSfBY2WZSxktQftrMKDHmxryaSOixjKnP4/yTCh6eFBUZMOrLoMidHusl3z8rzplWHoEqpVvZVCpOtDmBcMcpBfw==
+payment/paypal_express/active - 0
+payment/paypal_express/in_context - 0
+payment/paypal_express/title - PayPal Express Checkout
+payment/paypal_express/sort_order - 
+payment/paypal_express/payment_action - Authorization
+payment/paypal_express/visible_on_product - 1
+payment/paypal_express/visible_on_cart - 1
+payment/paypal_express/allowspecific - 0
+payment/paypal_express/debug - 1
+payment/paypal_express/verify_peer - 1
+payment/paypal_express/line_items_enabled - 1
+payment/paypal_express/transfer_shipping_options - 0
+payment/paypal_express/solution_type - Mark
+payment/paypal_express/require_billing_address - 0
+payment/paypal_express/allow_ba_signup - auto
+payment/paypal_express/skip_order_review_step - 1
+payment/paypal_express_bml/publisher_id - 
+payment/paypal_express_bml/homepage_display - 0
+payment/paypal_express_bml/homepage_position - 0
+payment/paypal_express_bml/homepage_size - 190x100
+payment/paypal_express_bml/categorypage_display - 0
+payment/paypal_express_bml/categorypage_position - 0
+payment/paypal_express_bml/categorypage_size - 190x100
+payment/paypal_express_bml/productpage_display - 0
+payment/paypal_express_bml/productpage_position - 0
+payment/paypal_express_bml/productpage_size - 190x100
+payment/paypal_express_bml/checkout_display - 0
+payment/paypal_express_bml/checkout_position - 0
+payment/paypal_express_bml/checkout_size - 234x60
+payment/paypal_express_bml/sort_order - 
+payment/paypal_billing_agreement/active - 1
+payment/paypal_billing_agreement/title - Pay through Existing PayPal
+payment/paypal_billing_agreement/sort_order - 
+payment/paypal_billing_agreement/payment_action - Authorization
+payment/paypal_billing_agreement/allowspecific - 0
+payment/paypal_billing_agreement/debug - 0
+payment/paypal_billing_agreement/verify_peer - 1
+payment/paypal_billing_agreement/line_items_enabled - 0
+payment/paypal_billing_agreement/allow_billing_agreement_wizard - 1
+payment/braintree/active - 0
+payment/braintree/title - Credit Card (Braintree)
+payment/braintree/environment - sandbox
+payment/braintree/payment_action - authorize
+payment/braintree/merchant_id - 
+payment/braintree/public_key - 
+payment/braintree/private_key - 
+payment/braintree/merchant_account_id - 
+payment/braintree/fraudprotection - 0
+payment/braintree/debug - 0
+payment/braintree/useccv - 1
+payment/braintree/cctypes - CUP,AE,VI,MC,DI,JCB,DN,MI
+payment/braintree/sort_order - 
+payment/braintree/allowspecific - 0
+payment/braintree/specificcountry - 
+payment/braintree/countrycreditcard - []
+payment/braintree/verify_3dsecure - 0
+payment/braintree/threshold_amount - 
+payment/braintree/verify_all_countries - 0
+payment/braintree/verify_specific_countries - 
+payment/braintree/descriptor_name - 
+payment/braintree/descriptor_phone - 
+payment/braintree/descriptor_url - 
+payment/braintree_paypal/active - 0
+payment/braintree_paypal/title - PayPal (Braintree)
+payment/braintree_paypal/sort_order - 
+payment/braintree_paypal/merchant_name_override - 
+payment/braintree_paypal/payment_action - authorize
+payment/braintree_paypal/allowspecific - 0
+payment/braintree_paypal/specificcountry - 
+payment/braintree_paypal/require_billing_address - 0
+payment/braintree_paypal/allow_shipping_address_override - 1
+payment/braintree_paypal/debug - 0
+payment/braintree_paypal/display_on_shopping_cart - 1
+payment/braintree_paypal/skip_order_review - 0
+payment/braintree_cc_vault/active - 0
+payment/braintree_cc_vault/title - Stored Cards (Braintree)
+payment/braintree_paypal_vault/active - 0
+payment/payflow_express/active - 0
+payment/payflow_express/title - PayPal Express Checkout Payflow Edition
+payment/payflow_express/sort_order - 
+payment/payflow_express/payment_action - Authorization
+payment/payflow_express/visible_on_product - 1
+payment/payflow_express/visible_on_cart - 1
+payment/payflow_express/allowspecific - 0
+payment/payflow_express/debug - 0
+payment/payflow_express/verify_peer - 1
+payment/payflow_express/line_items_enabled - 1
+payment/payflow_advanced/active - 0
+payment/payflow_advanced/partner - PayPal
+payment/payflow_advanced/vendor - PayPal
+payment/payflow_advanced/user - 
+payment/payflow_advanced/pwd - 
+payment/payflow_advanced/sandbox_flag - 0
+payment/payflow_advanced/use_proxy - 0
+payment/payflow_advanced/title - Credit Card
+payment/payflow_advanced/sort_order - 
+payment/payflow_advanced/payment_action - Authorization
+payment/payflow_advanced/allowspecific - 0
+payment/payflow_advanced/debug - 0
+payment/payflow_advanced/verify_peer - 1
+payment/payflow_advanced/csc_editable - 1
+payment/payflow_advanced/csc_required - 1
+payment/payflow_advanced/email_confirmation - 0
+payment/payflow_advanced/url_method - GET
+payment/payflow_express_bml/active - 0
+payment/paypal_payment_pro/active - 0
+payment/payflowpro_cc_vault/active - 0
+payment/payflowpro_cc_vault/title - Stored Cards (Payflow Pro)
+payment/payflowpro/partner - 
+payment/payflowpro/user - 
+payment/payflowpro/vendor - 
+payment/payflowpro/pwd - 
+payment/payflowpro/sandbox_flag - 0
+payment/payflowpro/use_proxy - 0
+payment/payflowpro/title - Credit Card
+payment/payflowpro/sort_order - 
+payment/payflowpro/payment_action - Authorization
+payment/payflowpro/cctypes - AE,VI
+payment/payflowpro/allowspecific - 0
+payment/payflowpro/debug - 0
+payment/payflowpro/verify_peer - 1
+payment/payflowpro/useccv - 1
+payment/payflowpro/avs_street - 0
+payment/payflowpro/avs_zip - 0
+payment/payflowpro/avs_international - 0
+payment/payflowpro/avs_security_code - 1
+payment/payflowpro/active - 0
+payment/payflowpro/fmf - 0
+payment/wps_express/active - 0
+payment/wps_express_bml/active - 0
+payment/payflow_link/active - 0
+payment/payflow_link/partner - PayPal
+payment/payflow_link/vendor - 
+payment/payflow_link/user - 
+payment/payflow_link/pwd - 
+payment/payflow_link/sandbox_flag - 0
+payment/payflow_link/use_proxy - 0
+payment/payflow_link/title - Credit Card
+payment/payflow_link/sort_order - 
+payment/payflow_link/payment_action - Authorization
+payment/payflow_link/allowspecific - 0
+payment/payflow_link/debug - 0
+payment/payflow_link/verify_peer - 1
+payment/payflow_link/csc_editable - 1
+payment/payflow_link/csc_required - 1
+payment/payflow_link/email_confirmation - 0
+payment/payflow_link/url_method - GET
+payment/chcybersource/active - 1
+payment/chcybersource/title - 
+payment/chcybersource/payment_action - authorize
+payment/chcybersource/specificcountry - 
+payment/chcybersource/enable_dm_cron - 1
+payment/chcybersource/enable_dm_accepted_settlement - 0
+payment/chcybersource/test_mode - 1
+payment/chcybersource/debug - 1
+payment/chcybersource/ignore_avs - 0
+payment/chcybersource/ignore_cvn - 0
+payment/chcybersource/sort_order - 10
+payment/chcybersource/developer_id - default
+payment/chcybersource/report_username - 
+payment/chcybersource/report_password - 
+payment/chcybersource/report_url - 
+payment/chcybersource/auth_indicator - 0
+payment/chcybersource/enable_cvv - 1
+payment/chcybersource/show_exact_error - 1
+payment/chcybersource/merchant_id - purina_justright2
+payment/chcybersource/transaction_key - 
+payment/chcybersource/use_test_wsdl - 1
+payment/chcybersource/profile_id - 9DB8D1E0-A7F7-4255-817A-9CA86E121003
+payment/chcybersource/access_key - bd0dae56901c3582a87bc99e1e47690b
+payment/chcybersource/secret_key - 
+payment/chcybersource/use_iframe - 1
+payment/chcybersource/use_iframe_sandbox - 1
+payment/chcybersource/auth_active - 0
+payment/chcybersource/address_check_enabled - 0
+payment/chcybersource/address_force_normal - 0
+payment/chcybersource/sop_profile_id - 
+payment/chcybersource/sop_access_key - 
+payment/chcybersource/sop_secret_key - 
+payment/chcybersource/sop_auth_active - 0
+payment/chcybersource/fingerprint_enabled - 1
+payment/chcybersource/org_id - 
+payment/chcybersource/au_active - 0
+payment/chcybersource/au_cron_expr - 0 19 22 * *
+payment/chcybersource/cctypes - AE,VI,MC,DI
+payment/chcybersource/atp_active - 0
+payment/chcybersource/atp_internal_resolution - 1
+payment/chcybersource/atp_rejection_message - You cannot take this action at this time.
+payment/chcybersource/atp_action_on_error - REJECT
+payment/chcybersource/sa_mode - 0
+payment/chcybersource/active_3ds - 0
+payment/chcybersource/token_skip_decision_manager - 1
+payment/chcybersource/rest_key_id - 
+payment/chcybersource/rest_key_value - 
+payment/chcybersource/new_order_status - subscription_created
+payment/chcybersource/csrf_token_expiration_lifetime - 600
+payment/chcybersource/sa_flow_mode - 1
+payment/chcybersource/secureacceptance_type - web
+payment/chcybersource_cc_vault/enable_admin_cvv - 1
+payment/chcybersource_cc_vault/active - 1
+payment/chcybersource_cc_vault/title - 
+payment/chcybersource_cc_vault/active_admin - 0
+payment/cybersourceecheck/active - 0
+payment/cybersourceecheck/title - CyberSource ECheck
+payment/cybersourceecheck/is_test - 0
+payment/cybersourceecheck/test_event_type - Final NSF
+payment/cybersourceecheck/service_url - https://ebc.cybersource.com/ebc
+payment/cybersourceecheck/merchant_password - 
+payment/cybersourceecheck/merchant_username - 
+payment/cybersourceecheck/report_check_period - 7
+payment/cybersourceecheck/drivers_license_number - 0
+payment/cybersourceecheck/check_number - 0
+payment/cybersourceecheck/agreement_required - 1
+payment/cybersourceecheck/sec_code - 0
+payment/cybersourceecheck/sort_order - 40
+payment/cybersource_section/cybersourceecheck/allowspecific - 0
+payment/cybersource_section/cybersourceecheck/specificcountry - 
+payment/cybersource_section/cybersource_au/manual_update - 
+payment/cybersource_section/cybersource_general/zeroAuth - 1
+payment/cybersourceklarna/title - CyberSource Klarna
+payment/cybersourceklarna/test_mode - 0
+payment/cybersourceklarna/order_status - 
+payment/cybersourceklarna/payment_action - authorize
+payment/cybersourceklarna/sort_order - 40
+payment/cybersourcepaypal/title - CyberSource PayPal
+payment/cybersourcepaypal/paypal_merchant_id - 
+payment/cybersourcepaypal/paypal_test_mode - 1
+payment/cybersourcepaypal/paypal_redirection_type - traditional
+payment/cybersourcepaypal/paypal_payment_action - authorize_capture
+payment/cybersourcepaypal/specificcountry - 
+payment/cybersourcepaypal/paypal_credit_active - 0
+payment/cybersourcepaypal/paypal_credit_title - CyberSource PayPal Credit
+payment/cybersourcepaypal/sort_order - 
+payment/cybersourcepaypal_vault/active - 1
+payment/cybersource_bank_transfer/ideal_active - 0
+payment/cybersource_bank_transfer/ideal_title - CyberSource iDEAL Bank Transfer
+payment/cybersource_bank_transfer/ideal_merchant_id - 
+payment/cybersource_bank_transfer/ideal_transaction_key - 
+payment/cybersource_bank_transfer/ideal_currency - EUR
+payment/cybersource_bank_transfer/sofort_active - 0
+payment/cybersource_bank_transfer/sofort_title - CyberSource Sofort Bank Transfer
+payment/cybersource_bank_transfer/sofort_merchant_id - 
+payment/cybersource_bank_transfer/sofort_transaction_key - 
+payment/cybersource_bank_transfer/sofort_currency - EUR
+payment/cybersource_bank_transfer/bancontact_active - 0
+payment/cybersource_bank_transfer/bancontact_title - CyberSource Bancontact Bank Transfer
+payment/cybersource_bank_transfer/bancontact_merchant_id - 
+payment/cybersource_bank_transfer/bancontact_transaction_key - 
+payment/cybersource_bank_transfer/bancontact_currency - EUR
+payment/cybersource_bank_transfer/eps_active - 0
+payment/cybersource_bank_transfer/eps_title - CyberSource EPS Bank Transfer
+payment/cybersource_bank_transfer/eps_merchant_id - 
+payment/cybersource_bank_transfer/eps_transaction_key - 
+payment/cybersource_bank_transfer/eps_currency - EUR
+payment/cybersource_bank_transfer/giro_active - 0
+payment/cybersource_bank_transfer/giro_title - CyberSource giropay Bank Transfer
+payment/cybersource_bank_transfer/giro_merchant_id - 
+payment/cybersource_bank_transfer/giro_transaction_key - 
+payment/cybersource_bank_transfer/giro_currency - EUR
+payment/cybersource_bank_transfer/bank_store_name - 
+payment/cybersource_bank_transfer_ideal/sort_order - 20
+payment/cybersource_bank_transfer_sofort/sort_order - 21
+payment/cybersource_bank_transfer_bancontact/sort_order - 22
+payment/cybersource_bank_transfer_eps/sort_order - 22
+payment/cybersource_bank_transfer_giro/sort_order - 22
+payment/chcybersourcevisa/active - 0
+payment/chcybersourcevisa/title - CyberSource Visa Checkout
+payment/chcybersourcevisa/test - 0
+payment/chcybersourcevisa/api_key - 
+payment/chcybersourcevisa/payment_action - authorize
+payment/chcybersourcevisa/sort_order - 40
+payment/cybersource_applepay/active - 0
+payment/cybersource_applepay/title - ApplePay
+payment/cybersource_applepay/payment_action - authorize
+payment/cybersource_applepay/apple_merchant_id - 
+payment/cybersource_applepay/display_name - 
+payment/cybersource_applepay/domain - 
+payment/cybersource_applepay/path_cert - 
+payment/cybersource_applepay/path_key - 
+payment/cybersource_applepay/sort_order - 
+payment/klarna_kp/active - 0
+payment/klarna_kp/allowspecific - 0
+payment/klarna_kp/data_sharing - 1
+payment/klarna_kp/sort_order - 
+payment/klarna_kp/enable_b2b - 0
+payment/klarna_kp/data_sharing_onload - 1
+payment/amazon_payment/merchant_id - 
+payment/amazon_payment/access_key - 
+payment/amazon_payment/secret_key - 
+payment/amazon_payment/client_id - 
+payment/amazon_payment/client_secret - 
+payment/amazon_payment/credentials_json - 
+payment/amazon_payment/payment_region - 
+payment/amazon_payment/sandbox - 0
+payment/amazon_payment/active - 0
+payment/amazon_payment/lwa_enabled - 0
+payment/amazon_payment/payment_action - authorize
+payment/amazon_payment/authorization_mode - synchronous
+payment/amazon_payment/update_mechanism - polling
+payment/amazon_payment/button_display_language - 
+payment/amazon_payment/button_color - Gold
+payment/amazon_payment/button_size - medium
+payment/amazon_payment/amazon_login_in_popup - 1
+payment/amazon_payment/pwa_pp_button_is_visible - 1
+payment/amazon_payment/minicart_button_is_visible - 1
+payment/amazon_payment/multicurrency - 0
+payment/amazon_payment/storename - 
+payment/amazon_payment/logging - 1
+payment/amazon_payment/allowed_ips - 
+payment/amazonlogin/active - 0
+payment/checkmo/specificcountry - 
+payment/checkmo/payable_to - 
+payment/checkmo/mailing_address - 
+payment/checkmo/min_order_total - 
+payment/checkmo/max_order_total - 
+payment/checkmo/sort_order - 
+payment/checkmo/active - 0
+payment/banktransfer/specificcountry - 
+payment/banktransfer/instructions - 
+payment/banktransfer/min_order_total - 
+payment/banktransfer/max_order_total - 
+payment/banktransfer/sort_order - 
+payment/cashondelivery/specificcountry - 
+payment/cashondelivery/instructions - 
+payment/cashondelivery/min_order_total - 
+payment/cashondelivery/max_order_total - 
+payment/cashondelivery/sort_order - 
+payment/free/specificcountry - 
+payment/free/active - 0
+payment/purchaseorder/specificcountry - 
+payment/purchaseorder/min_order_total - 
+payment/purchaseorder/max_order_total - 
+payment/purchaseorder/sort_order - 
+payment/cybersource/active - 0
+payment/cybersource/payment_action - authorize
+payment/cybersource/title - Credit Card (Cybersource)
+payment/cybersource/merchant_id - 
+payment/cybersource/transaction_key - 
+payment/cybersource/profile_id - 
+payment/cybersource/access_key - 
+payment/cybersource/secret_key - 
+payment/cybersource/is_multidomain - 0
+payment/cybersource/order_status - processing
+payment/cybersource/sandbox_flag - 1
+payment/cybersource/debug - 0
+payment/cybersource/cctypes - AE,VI,MC,DI,JCB,DN,MI,MD
+payment/cybersource/allowspecific - 0
+payment/cybersource/specificcountry - 
+payment/cybersource/min_order_total - 
+payment/cybersource/max_order_total - 
+payment/cybersource/sort_order - 
+payment/authorizenet_directpost/login - 
+payment/authorizenet_directpost/trans_key - 
+payment/authorizenet_directpost/signature_key - 
+payment/authorizenet_directpost/trans_md5 - 
+payment/authorizenet_directpost/merchant_email - 
+payment/authorizenet_directpost/useccv - 0
+payment/authorizenet_directpost/specificcountry - 
+payment/authorizenet_directpost/min_order_total - 
+payment/authorizenet_directpost/max_order_total - 
+payment/authorizenet_directpost/sort_order - 
+payment/worldpay/active - 0
+payment/worldpay/title - Payment method (Worldpay)
+payment/worldpay/installation_id - 
+payment/worldpay/response_password - 
+payment/worldpay/admin_installation_id - 
+payment/worldpay/auth_password - 
+payment/worldpay/md5_secret - 
+payment/worldpay/fix_contact - 1
+payment/worldpay/hide_contact - 0
+payment/worldpay/signature_fields - instId:cartId:amount:currency
+payment/worldpay/debug - 1
+payment/worldpay/sandbox_flag - 1
+payment/worldpay/test_action - AUTHORISED
+payment/worldpay/payment_action - authorize
+payment/worldpay/allowspecific - 0
+payment/worldpay/specificcountry - 
+payment/worldpay/cvv_fraud_case - 
+payment/worldpay/avs_fraud_case - 
+payment/worldpay/sort_order - 99
+payment/eway/active - 0
+payment/eway/connection_type - direct
+payment/eway/title - Credit Card (eWAY)
+payment/eway/sandbox_flag - 1
+payment/eway/live_api_key - 
+payment/eway/live_api_password - 
+payment/eway/live_encryption_key - 
+payment/eway/sandbox_api_key - 
+payment/eway/sandbox_api_password - 
+payment/eway/sandbox_encryption_key - 
+payment/eway/payment_action - authorize
+payment/eway/debug - 1
+payment/eway/cctypes - AE,VI,MC,JCB,DN
+payment/eway/allowspecific - 0
+payment/eway/specificcountry - 
+payment/eway/sort_order - 
+payment/cybersourceflex/active - 1
+payment/cybersourceflex/active_addcard - 1
+payment/cybersourceflex/add_card_link - addcard/index/index
+payment/cybersourceflex/title - New Credit Card
+payment/cybersourceflex/order_status - subscription_created
+payment/cybersourceflex/merchantID - purina_justright
+payment/cybersourceflex/apiKeyID - da8d9e65-72ec-4f85-8a16-f3e84adca5bb
+payment/cybersourceflex/secretKey - ******
+payment/cybersourceflex/testEnv - cyberSource.environment.SANDBOX
+payment/cybersourceflex/productionEnv - cyberSource.environment.PRODUCTION
+payment/cybersourceflex/mode - 1
+payment/cybersourceflex/testUrl - apitest.cybersource.com
+payment/cybersourceflex/testJsUrl - https://testflex.cybersource.com/cybersource/assets/microform/0.4.0/flex-microform.min.js
+payment/cybersourceflex/productionJsUrl - https://flex.cybersource.com/cybersource/assets/microform/0.4.0/flex-microform.min.js
+payment/cybersourceflex/productionUrl - api.cybersource.com
+payment/cybersourceflex/payment_action - authorize
+payment/cybersourceflex/vaultconfig - 1
+payment/cybersourceflex/allowspecific - 0
+payment/cybersourceflex/specificcountry - 
+payment/cybersourceflex/enableLog - 1
+payment/cybersourceflex/sort_order - 
+payment/cybersourceflex/zeroAuth - 1
+payment/cybersource_googlepay/active - 1
+payment/cybersource_googlepay/title - CyberSource Google Pay
+payment/cybersource_googlepay/payment_action - authorize
+payment/cybersource_googlepay/google_merchant_id - 
+payment/cybersource_googlepay/display_name - 
+payment/cybersource_googlepay/allowspecific - 0
+payment/cybersource_googlepay/specificcountry - 
+payment/cybersource_googlepay/sort_order - 50
+payment/cybersourcewechatpay/active - 0
+payment/cybersourcewechatpay/title - CyberSource WeChat Pay
+payment/cybersourcewechatpay/qr_expiration_time - 3600
+payment/cybersourcewechatpay/check_status_frequency - 5
+payment/cybersourcewechatpay/max_status_requests - 0
+payment/cybersourcewechatpay/allowspecific - 0
+payment/cybersourcewechatpay/specificcountry - 
+payment/cybersourcewechatpay/popup_message_delay - 3
+payment/cybersourcewechatpay/test_response_code - 
+payment/cybersourcewechatpay/sort_order - 70
+magento_reward/general/is_enabled - 0
+magento_reward/general/is_enabled_on_front - 0
+magento_reward/general/publish_history - 0
+magento_reward/general/min_points_balance - 
+magento_reward/general/max_points_balance - 
+magento_reward/general/expiration_days - 
+magento_reward/general/expiry_calculation - static
+magento_reward/general/refund_automatically - 1
+magento_reward/general/deduct_automatically - 1
+magento_reward/general/landing_page - reward-points
+magento_reward/points/order - 1
+magento_reward/points/register - 20
+magento_reward/points/newsletter - 20
+magento_reward/points/invitation_customer - 25
+magento_reward/points/invitation_customer_limit - 2
+magento_reward/points/invitation_order - 
+magento_reward/points/invitation_order_limit - 
+magento_reward/points/invitation_order_frequency - *
+magento_reward/points/review - 
+magento_reward/points/review_limit - 
+magento_reward/notification/email_sender - general
+magento_reward/notification/subscribe_by_default - 1
+magento_reward/notification/balance_update_template - magento_reward_notification_balance_update_template
+magento_reward/notification/expiry_warning_template - magento_reward_notification_expiry_warning_template
+magento_reward/notification/expiry_day_before - 
+customer/startup/redirect_dashboard - 1
+customer/create_account/confirm - 0
+customer/create_account/auto_group_assign - 0
+customer/create_account/viv_disable_auto_group_assign_default - 0
+customer/create_account/generate_human_friendly_id - 0
+customer/online_customers/online_minutes_interval - 
+customer/online_customers/section_data_lifetime - 60
+customer/address/prefix_options - 
+customer/address/suffix_options - 
+customer/address/telephone_show - req
+customer/address/company_show - 
+customer/address/fax_show - 
+customer/address/street_lines - 2
+customer/magento_customerbalance/is_enabled - 1
+customer/magento_customerbalance/show_history - 1
+customer/magento_customerbalance/refund_automatically - 0
+customer/magento_customerbalance/email_identity - general
+customer/magento_customerbalance/email_template - customer_magento_customerbalance_email_template
+customer/magento_customersegment/is_enabled - 1
+customer/captcha/forms - user_forgotpassword
+customer/captcha/failed_attempts_login - 2
+customer/captcha/enable - 0
+customer/password/lockout_failures - 10
+customer/password/lockout_threshold - 10
+customer/password/password_reset_protection_type - 0
+customer/address_templates/text - {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}
+{{depend company}}{{var company}}{{/depend}}
+{{if street1}}{{var street1}}
+{{/if}}
+{{depend street2}}{{var street2}}{{/depend}}
+{{depend street3}}{{var street3}}{{/depend}}
+{{depend street4}}{{var street4}}{{/depend}}
+{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}
+{{var country}}
+{{depend telephone}}Phone: {{var telephone}}{{/depend}}
+{{depend fax}}Fax: {{var fax}}{{/depend}}
+{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}
+customer/address_templates/html - {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}{{depend firstname}}<br />{{/depend}}
+{{depend company}}{{var company}}<br />{{/depend}}
+{{if street1}}{{var street1}}<br />{{/if}}
+{{depend street2}}{{var street2}}<br />{{/depend}}
+{{depend street3}}{{var street3}}<br />{{/depend}}
+{{depend street4}}{{var street4}}<br />{{/depend}}
+{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}<br />
+{{var country}}<br />
+{{depend telephone}}Phone: <a href="tel:{{var telephone}}">{{var telephone}}</a>{{/depend}}
+{{depend fax}}<br />Fax: {{var fax}}{{/depend}}
+{{depend vat_id}}<br />VAT: {{var vat_id}}{{/depend}}
+customer/address_templates/pdf - {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}|
+{{depend company}}{{var company}}|{{/depend}}
+{{if street1}}{{var street1}}|{{/if}}
+{{depend street2}}{{var street2}}|{{/depend}}
+{{depend street3}}{{var street3}}|{{/depend}}
+{{depend street4}}{{var street4}}|{{/depend}}
+{{if city}}{{var city}}, {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}|
+{{var country}}|
+{{depend telephone}}Phone: {{var telephone}}|{{/depend}}
+{{depend fax}}Fax: {{var fax}}|{{/depend}}|
+{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}|
+cataloginventory/item_options/manage_stock - 0
+cataloginventory/item_options/min_sale_qty - {"_Q7Nrp4L2Sk61GiYQTJ9oPCYreb176PDr":{"customer_group_id":32000,"min_sale_qty":0.01}}
+persistent/options/enabled - 1
+persistent/options/remember_enabled - 0
+persistent/options/compare_current - 0
+persistent/options/compare_history - 0
+persistent/options/recently_ordered - 0
+persistent/options/recently_viewed - 0
+persistent/options/wishlist - 0
+checkout/options/guest_checkout - 1
+checkout/options/display_billing_address_on - 2
+checkout/options/enable_agreements - 0
+checkout/options/enable_address_search - 0
+checkout/cart/preview_quota_lifetime - 30
+checkout/cart/redirect_to_cart - 1
+checkout/payment_failed/copy_to - 
+checkout/payment_failed/copy_method - bcc
+checkout/tokenbase/clean_old_cards - 1
+checkout/tokenbase/enable_public_api - 0
+checkout/klarna_kp_design/color_details - 
+checkout/klarna_kp_design/color_border - 
+checkout/klarna_kp_design/color_border_selected - 
+checkout/klarna_kp_design/color_text - 
+checkout/klarna_kp_design/color_radius_border - 
+checkout/sidebar/count - 3
+amasty_base/system_value/first_module_run - 1557165217
+amasty_base/system_value/last_update - 1641332775
+amasty_base/system_value/remove_date - 1641415741
+paypal/general/merchant_country - US
+paypal/general/business_account - justrighttest@purina.nestle.com
+paypal/wpp/api_authentication - 0
+paypal/wpp/api_username - 
+paypal/wpp/api_password - 
+paypal/wpp/api_signature - 
+paypal/wpp/sandbox_flag - 1
+paypal/wpp/use_proxy - 0
+paypal/wpp/button_flavor - dynamic
+paypal/fetch_reports/ftp_login - 
+paypal/fetch_reports/ftp_password - 
+paypal/fetch_reports/ftp_sandbox - 0
+paypal/fetch_reports/ftp_ip - 
+paypal/fetch_reports/ftp_path - 
+paypal/fetch_reports/active - 0
+paypal/fetch_reports/schedule - 1
+paypal/fetch_reports/time - 00,00,00
+paypal/style/logo - 
+paypal/style/page_style - 
+paypal/style/paypal_hdrimg - 
+paypal/style/paypal_hdrbackcolor - 
+paypal/style/paypal_hdrbordercolor - 
+paypal/style/paypal_payflowcolor - 
+paypal/style/checkout_page_button_customize - 0
+paypal/style/product_page_button_customize - 0
+paypal/style/cart_page_button_customize - 0
+paypal/style/mini_cart_page_button_customize - 0
+paypal/style/disable_funding_options - 
+klarna/api/api_version - kp_eu
+klarna/api/merchant_id - 
+klarna/api/shared_secret - 
+klarna/api/test_mode - 1
+klarna/api/debug - 1
+tax/cybersourcetax/tax_enabled - 0
+tax/cybersourcetax/cybersource_nexus_regions - AL,AK,AS,AZ,AR,AE,AA,AP,CA,CO,CT,DE,DC,FM,FL,GA,GU,HI,ID,IL,IN,IA,KS,KY,LA,ME,MH,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,MP,OH,OK,OR,PW,PA,PR,RI,SC,SD,TN,TX,UT,VT,VI,VA,WA,WV,WI,WY
+tax/cybersourcetax/tax_countries - US
+tax/vertex_settings/enable_vertex - 1
+tax/vertex_settings/use_for_calculation - 1
+tax/vertex_settings/trustedId - ******
+tax/vertex_settings/allowed_countries - US
+tax/vertex_settings/summarize_tax - product_and_shipping
+tax/vertex_settings/invoice_order - invoice_created
+tax/vertex_settings/invoice_order_status - complete
+tax/vertex_settings/invoice_resend_max_retry - 3
+tax/vertex_seller_info/company - US39NPPC
+tax/vertex_seller_info/location_code - 
+tax/vertex_seller_info/streetAddress1 - 1650 Windsor Dr
+tax/vertex_seller_info/streetAddress2 - 
+tax/vertex_seller_info/city - Clinton
+tax/vertex_seller_info/country_id - US
+tax/vertex_seller_info/region_id - 25
+tax/vertex_seller_info/postalCode - 52732
+tax/vertex_seller_info/shipping_origin_source - 0
+tax/vertex_delivery_terms/default_term - SUP
+tax/vertex_delivery_terms/override - []
+tax/classes/wrapping_tax_class - 0
+tax/classes/creditmemo_adjustment_class - 10
+tax/classes/giftwrap_order_class - 0
+tax/classes/giftwrap_item_class - 0
+tax/classes/printed_giftcard_class - 0
+tax/classes/reward_points_class - 0
+tax/classes/custom_tax_class - 0
+tax/calculation/cross_border_trade_enabled - 0
+tax/defaults/postcode - 
+tax/vertex_logging/rotation_action - delete
+tax/vertex_logging/entry_lifetime - 7
+tax/vertex_logging/rotation_frequency - W
+tax/vertex_logging/rotation_runtime - 00,00,00
+tax/vertex_logging/enable_logging - 1
+tax/vertex_logging/enable_rotation - 1
+tax/vertex_flexfields/code - {"1":{"field_id":"1","field_source":""},"2":{"field_id":"2","field_source":""},"3":{"field_id":"3","field_source":""},"4":{"field_id":"4","field_source":""},"5":{"field_id":"5","field_source":""},"6":{"field_id":"6","field_source":""},"7":{"field_id":"7","field_source":""},"8":{"field_id":"8","field_source":""},"9":{"field_id":"9","field_source":""},"10":{"field_id":"10","field_source":""},"11":{"field_id":"11","field_source":""},"12":{"field_id":"12","field_source":""},"13":{"field_id":"13","field_source":""},"14":{"field_id":"14","field_source":""},"15":{"field_id":"15","field_source":""},"16":{"field_id":"16","field_source":""},"17":{"field_id":"17","field_source":""},"18":{"field_id":"18","field_source":""},"19":{"field_id":"19","field_source":""},"20":{"field_id":"20","field_source":""},"21":{"field_id":"21","field_source":""},"22":{"field_id":"22","field_source":""},"23":{"field_id":"23","field_source":""},"24":{"field_id":"24","field_source":""},"25":{"field_id":"25","field_source":""}}
+tax/vertex_flexfields/numeric - {"1":{"field_id":"1","field_source":""},"2":{"field_id":"2","field_source":""},"3":{"field_id":"3","field_source":""},"4":{"field_id":"4","field_source":""},"5":{"field_id":"5","field_source":""},"6":{"field_id":"6","field_source":""},"7":{"field_id":"7","field_source":""},"8":{"field_id":"8","field_source":""},"9":{"field_id":"9","field_source":""},"10":{"field_id":"10","field_source":""}}
+tax/vertex_flexfields/date - {"1":{"field_id":"1","field_source":""},"2":{"field_id":"2","field_source":""},"3":{"field_id":"3","field_source":""},"4":{"field_id":"4","field_source":""},"5":{"field_id":"5","field_source":""}}
+tax/cart_display/grandtotal - 0
+tax/cart_display/full_summary - 0
+tax/cart_display/zero_tax - 1
+tax/vertex_seller_administrative_info/enable_administrative - 1
+tax/vertex_seller_administrative_info/administrativeStreetAddress1 - One Checkerboard Square
+tax/vertex_seller_administrative_info/administrativeStreetAddress2 - 
+tax/vertex_seller_administrative_info/administrativeCity - Saint Louis
+tax/vertex_seller_administrative_info/administrativeCountry_id - US
+tax/vertex_seller_administrative_info/administrativeRegion_id - 36
+tax/vertex_seller_administrative_info/administrativePostalCode - 63164
+tax/cybersourcetax_tax/enabled - 0
+giftcard/email/identity - general
+giftcard/email/template - giftcard_email_template
+giftcard/general/is_redeemable - 0
+giftcard/general/lifetime - 0
+giftcard/general/allow_message - 1
+giftcard/general/message_max_length - 255
+giftcard/general/order_item_status - 9
+giftcard/giftcardaccount_email/identity - general
+giftcard/giftcardaccount_email/template - giftcard_giftcardaccount_email_template
+giftcard/giftcardaccount_general/code_length - 12
+giftcard/giftcardaccount_general/code_format - alphanum
+giftcard/giftcardaccount_general/code_prefix - 
+giftcard/giftcardaccount_general/code_suffix - 
+giftcard/giftcardaccount_general/code_split - 0
+giftcard/giftcardaccount_general/pool_size - 1000
+giftcard/giftcardaccount_general/pool_threshold - 100
+admin/security/use_case_sensitive_login - 0
+admin/security/session_lifetime - 31536000
+admin/magento_logging/actions - {"adminhtml_system_account":"1","adminhtml_permission_roles":"1","adminhtml_permission_users":"1","admin_login":"1","cms_blocks":"1","magento_versionscms_hierarchy":"1","version_cms_pages":"1","cache_management":"1","salesrule":"1","catalog_attributes":"1","catalog_categories":"1","magento_catalogevent":"1","catalogrule":"1","tax_product_tax_classes":"1","catalog_attributesets":"1","catalog_products":"1","rating":"1","review":"1","catalogsearch":"1","sales_agreement":"1","adminhtml_system_variable":"1","customer_groups":"1","magento_invitation":"1","tax_customer_tax_classes":"1","customer":"1","magento_giftcardaccount":"1","magento_giftregistry_entity":"1","magento_giftregistry_type":"1","index_managment":"1","adminhtml_system_currency":"1","adminhtml_customer_address_attribute":"1","adminhtml_customer_attribute":"1","adminhtml_system_design":"1","magento_banner":"1","magento_customersegment":"1","adminhtml_system_stores":"1","adminhtml_system_store_groups":"1","adminhtml_system_websites":"1","newsletter_queue":"1","newsletter_subscribers":"1","newsletter_templates":"1","paypal_settlement_reports":"1","reports":"1","magento_reward_rate":"1","magento_targetrule":"1","magento_salesarchive":"1","sales_creditmemos":"1","sales_invoices":"1","sales_order_status":"1","sales_orders":"1","sales_shipments":"1","magento_advancedcheckout":"1","magento_customerbalance":"1","backups":"1","adminhtml_system_config":"1","tax_rates":"1","tax_rules":"1","adminhtml_email_template":"1","urlrewrites":"1","widget_instance":"1","google_sitemap":"1"}
+admin/usage/enabled - 0
+admin/captcha/enable - 0
+yotpo/module_info/yotpo_installation_date - 2019-12-31
+yotpo/sync_settings/orders_sync_start_date - 2019-12-31
+mst_core/css/include_font_awesome - 0
+mst_core/css/custom - 
+mst_core/css/is_less_compilation_enabled - 0
+mst_core/menu/is_enabled - 0
+po_addressautocomplete/general/is_enabled - 1
+po_addressautocomplete/google_places/api_key - AIzaSyDpK_AREAxZaclenreUPza7Ko9xJHBGGo4
+po_addressautocomplete/google_places/hide_logo - 0
+po_addressautocomplete/google_places/use_browser_geolocation - 0
+po_addressautocomplete/google_places/use_country_restriction - 1
+po_addressautocomplete/address_component/is_street_combined - 1
+subscriptionsCancel/reasons/reasonsList - Order shipment issues - incorrect / delayed / damaged product|I received too much Just Right food|I do not want my Just Right food on subscription|Just Right is too expensive|My pet doesn't like Just Right|This pet passed away
+subscriptionsCancel/reasons/admin_enable - 1
+purinaglobal_liveperson/general/enable - 1
+nestle/compliance/email_send_limit - 5000
+nestle/compliance/front_cookie_messages_remove_urls - 1
+nestle/compliance/front_cookie_messages_special_chars - 1
+nestle/compliance/save_security_logs_file - 1
+nestle/compliance/save_login_logs_db - 1
+nestle/compliance/enable_inactive_backend_users - 1
+nestle/compliance/edit_email_address - 0
+nestle/customer_email/confirmation_template - nestle_customer_email_confirmation_template
+magento_invitation/general/allow_customer_message - 0
+magento_invitation/general/enabled - 0
+magento_invitation/general/enabled_on_front - 0
+magento_invitation/general/registration_use_inviter_group - 1
+magento_invitation/general/registration_required_invitation - 0
+magento_invitation/general/max_invitation_amount_per_send - 5
+magento_invitation/email/identity - general
+magento_invitation/email/template - magento_invitation_email_template
+purinajustright_constants/bushel_to_cups/bushel_to_cups - 128
+search/engine/engine - elastic
+search/engine/elastic_host - pp-us-justrightpetfood-elasticsearch
+search/engine/elastic_port - 9200
+search/engine/elastic_prefix - magento2_preprod
+search/advanced/wildcard - infix
+search/advanced/noroute_to_search - 0
+search/advanced/redirect_on_single_result - 0
+search/advanced/google_sitelinks - 1
+search/advanced/terms_highlighting - 1
+search/advanced/show_related_terms - 1
+search/advanced/results_limit - 10
+search/advanced/wildcard_exceptions - []
+search/advanced/replace_words - {"_1583267868052_52":{"from":"abc123","to":"test"},"_1583267873095_95":{"from":"","to":""}}
+search/advanced/not_words - []
+search/advanced/long_tail_expressions - []
+search/advanced/match_mode - or
+search/multi_store_mode/enabled - 0
+amastyfaq/admin_email/template - 4
+amastyfaq/admin_email/enable_notify - 1
+amastyfaq/admin_email/send_to - general
+amastyfaq/user_email/template - 5
+amastyfaq/user_email/user_notify - 1
+amastyfaq/user_email/sender - general
+amastyfaq/faq_home_page/cmspages_faq_home_page - 8
+amastyfaq/faq_home_page/layout - 2columns-left
+amastyfaq/general/enabled - 1
+amastyfaq/general/label - FAQ
+amastyfaq/general/url_key - faq
+amastyfaq/general/add_to_toolbar_menu - 1
+amastyfaq/general/add_to_category_menu - 0
+amastyfaq/general/add_to_footer_menu - 0
+amastyfaq/general/unregistered_customers_questions - 0
+amastyfaq/faq_page/limit_short_answer - 250
+amastyfaq/faq_page/no_result - Sorry, we couldn’t dig up any results for "%s."
+amastyfaq/faq_page/limit_question_search - 15
+amastyfaq/faq_page/tag_menu_limit - 10
+amastyfaq/faq_page/limit_question_category - 15
+amastyfaq/faq_page/short_answer_behavior - 0
+amastyfaq/product_page/show_tab - 1
+amastyfaq/product_page/tab_name - 
+amastyfaq/product_page/tab_position - 55
+amastyfaq/product_page/show_link - 1
+amastyfaq/product_page/limit_question_product - 15
+amastyfaq/product_page/short_answer_behavior - 1
+amastyfaq/rating/type - 0
+amastyfaq/social/enabled - 0
+amastyfaq/social/buttons - 
+amastyfaq/seo/canonical_url - 0
+amastyfaq/seo/sitemap - 0
+amastyfaq/seo/add_richdata_breadcrumbs - 1
+amastyfaq/seo/add_richdata_organization - 0
+amastyfaq/seo/hreflang - 0
+amastyfaq/seo/add_structureddata - 1
+amastyfaq/gdpr/enabled - 0
+design/theme/theme_id - 4
+design/pagination/pagination_frame - 5
+design/pagination/pagination_frame_skip - 
+design/pagination/anchor_text_for_previous - 
+design/pagination/anchor_text_for_next - 
+design/head/default_title - Magento Enterprise Edition
+design/head/title_prefix - 
+design/head/title_suffix - 
+design/head/default_description - 
+design/head/default_keywords - 
+design/head/includes - <style>
+/** Purina Just Right Template (use class purina-justright) **/
+
+.pf-widget.purina-justright {
+        font-family: "Rubik", Arial, Helvetica, sans-serif;
+
+}
+
+
+.pf-widget.purina-justright.pf-widget-modal .pf-widget-content, .pf-widget.purina-justright .pf-widget.pf-widget-slideout .pf-widget-content {
+   background-color: white;
+    border-top: 10px solid #125D77;
+    border-radius: 0;
+    max-width: 600px;
+}
+
+.purina-justright.pf-widget-bar .pf-bar-content, .purina-justright.pf-widget-inline.pf-widget-variant-2 .pf-widget-content, .purina-justright.pf-widget-slideout.pf-widget-variant-2 .pf-widget-content {
+   
+}
+
+/* IMAGE */
+.pf-widget.purina-justright .pf-widget-img {
+    width: 140px;
+    height: 100px;
+    object-fit: contain;
+    top:10px;
+}
+
+/* HEADLINE */    
+.pf-widget.purina-justright .pf-widget-modal .pf-widget-headline {
+    
+}
+.pf-widget.purina-justright .pf-widget-slideout .pf-widget-headline  {
+
+}
+
+.pf-widget.purina-justright .pf-widget-headline{
+    margin-top: 80px;
+    font-weight: 600;
+    color: #125D77;
+}
+
+/* MESSAGE */
+.pf-widget.purina-justright .pf-widget-message {
+    font-weight: 300 !important;
+    color: #585453;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.purina-justright div{
+    font-size: .6em;
+}
+/* BUTTON */
+
+.pf-widget.purina-justright .pf-widget-btn.pf-widget-ok {
+    background-color: #49A65A;
+    color: #FFFFFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 0;
+    font-weight: 500 !important;
+}
+
+.pf-widget.purina-justright .pf-widget-btn.pf-widget-cancel {
+    background-color: white;
+    color: #125D77;
+    display: none;
+}
+
+/*CLOSE */
+.pf-widget.purina-justright .pf-widget-close {
+    color: #125D77;
+
+}
+
+/* FOOTER*/
+.pf-widget.purina-justright .pf-widget-footer{
+    text-align: center;
+    font-size: 10px;
+    color: #585453;
+    margin-top: 18px;
+}
+
+/*FORM*/
+
+pf-custom-form.purina-justright {
+    float: left;
+    width: 300px;
+}
+
+.pf-form.purina-justright div.pf-form-required span.required, .pf-sitegate.purina-justright div.pf-form-required span.required {
+    color: #49A65A;
+}
+
+.pf-widget-modal.purina-justright form input[type=text], .pf-widget-modal.purina-justright form input[type=email], .pf-widget-modal.purina-justright form select {
+    border: 1px solid lightgray;
+    border-radius: 0;
+    color: #585453;
+    font-family: "Rubik", Arial;
+    font-size: 14px;
+    height: 35px;
+}
+.pf-widget-modal.purina-justright form input[type=checkbox]{
+
+}
+
+.pf-form.purina-justright .pf-widget-checkbox, pf-form.purina-justright .pf-widget-radio, .pf-sitegate.purina-justright .pf-widget-checkbox, .pf-sitegate.purina-justright .pf-widget-radio {
+
+}
+
+.pf-widget.purina-justright a{
+    color: #49A65A;
+    font-weight: 300;
+
+}
+.pf-form.purina-justright .pf-form-label, .pf-sitegate.purina-justright .pf-form-label{
+    margin: 10px 0 3px;
+    color: #585453;
+    
+}
+.pf-form.purina-justright .pf-widget-radio{
+
+}
+.pf-form.purina-justright .pf-has-label, .pf-sitegate.purina-justright .pf-has-label {
+
+}
+.pf-form.purina-justright div.pf-form-required span.required, .pf-sitegate.purina-justright div.pf-form-required span.required{
+
+}
+
+
+/*BAR*/
+.pf-widget.purina-justright .pf-widget-bar.purina-justright {
+
+}
+
+/* BAR MESSAGE*/
+.pf-widget-bar.purina-justright .pf-bar-content .pf-widget-message {
+
+}
+
+
+/*BAR BUTTON*/
+.pf-widget-bar.pf-message.purina-justright .pf-widget-btn{
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+.pf-widget.purina-justright .pf-widget-slideout.pf-position-bottom-left, .pf-widget.purina-justright .pf-widget-slideout.pf-position-left, .pf-widget.purina-justright .pf-widget-slideout.pf-position-top-left {
+
+}
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+ 
+ .pf-widget.purina-justright .pf-widget-modal .pf-widget-content, .pf-widget.purina-justright .pf-widget.pf-widget-slideout .pf-widget-content {
+
+}
+    /*headline*/
+.pf-widget.purina-justright .pf-widget-modal .pf-widget-headline {
+
+}
+  
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+}
+</style>
+design/head/demonotice - 0
+design/header/logo_width - 
+design/header/logo_height - 
+design/header/logo_alt - 
+design/header/welcome - Default welcome msg!
+design/footer/copyright - © Copyright All trademarks are owned by Société des Produits Nestlé S.A. or used with permission
+design/footer/absolute_footer - 
+design/footer/report_bugs - 1
+design/search_engine_robots/default_robots - NOINDEX,FOLLOW
+design/search_engine_robots/custom_instructions - User-agent: *
+Disallow: /index.php/
+Disallow: /*?
+Disallow: /checkout/
+Disallow: /app/
+Disallow: /lib/
+Disallow: /*.php$
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /var/
+Disallow: /catalog/
+Disallow: /customer/
+Disallow: /sendfriend/
+Disallow: /review/
+Disallow: /*SID=
+design/watermark/image_size - 
+design/watermark/image_imageOpacity - 
+design/watermark/image_position - stretch
+design/watermark/small_image_size - 
+design/watermark/small_image_imageOpacity - 
+design/watermark/small_image_position - stretch
+design/watermark/thumbnail_size - 
+design/watermark/thumbnail_imageOpacity - 
+design/watermark/thumbnail_position - stretch
+design/watermark/swatch_image_size - 
+design/watermark/swatch_image_imageOpacity - 
+design/watermark/swatch_image_position - stretch
+design/email/logo_alt - 
+design/email/logo_width - 
+design/email/logo_height - 
+design/email/header_template - design_email_header_template
+design/email/footer_template - design_email_footer_template
+subscriptions/general/active - 1
+subscriptions/general/allow_customer_cancel - 1
+subscriptions/general/allow_customer_pause - 1
+subscriptions/general/group_same_day - 0
+subscriptions/general/enable_shipping_fallback - 1
+subscriptions/general/always_add_custom_option - 0
+subscriptions/general/default_to_one_time - 0
+subscriptions/general/option_label - Subscription
+subscriptions/general/installment_label - installments
+subscriptions/general/enable_public_api - 1
+subscriptions/general/billing_active - 1
+subscriptions/general/new_order_status - processing
+subscriptions/schedule/days_of_week - 0,1,2,3,4,5,6
+subscriptions/schedule/days_of_month - 1
+subscriptions/schedule/months - 1,2,3,4,5,6,7,8,9,10,11,12
+subscriptions/schedule/blackout_dates - 2020-01-01
+2020-04-12
+2020-05-10
+2020-05-25
+2020-07-03
+2020-07-04
+2020-09-07
+2020-11-26
+2020-11-27
+2020-12-24
+2020-12-25
+2021-01-01
+subscriptions/billing_failed/active - 0
+subscriptions/billing_failed/identity - general
+subscriptions/billing_failed/receiver - general
+subscriptions/billing_failed/template - subscriptions_billing_failed_template
+subscriptions/billing_failed/copy_to - 
+subscriptions/billing_failed/copy_method - bcc
+subscriptions/payment_failed/active - 0
+subscriptions/payment_failed/identity - general
+subscriptions/payment_failed/template - subscriptions_payment_failed_template
+subscriptions/payment_failed/copy_to - 
+subscriptions/payment_failed/copy_method - bcc
+subscriptions/billing_notice/active - 0
+subscriptions/billing_notice/advance_period - 4
+subscriptions/billing_notice/identity - general
+subscriptions/billing_notice/template - subscriptions_billing_notice_template
+subscriptions/billing_notice/copy_to - 
+subscriptions/billing_notice/copy_method - bcc
+contact/email/recipient_email - rajmohan.mohanasundaram@borngroup.com
+contact/email/email_template - 6
+veslicense/general/Magento2EEmegamenu - sbna-pj1b-x667-eu7ev4j-hdi17i
+veslicense/general/min_chars - 3
+veslicense/general/delay - 500
+veslicense/general/index - Array
+veslicense/general/active - 1
+veslicense/general/allow_customer_cancel - 1
+veslicense/general/allow_customer_pause - 1
+veslicense/general/group_same_day - 1
+veslicense/general/enable_shipping_fallback - 1
+veslicense/general/default_to_one_time - 1
+veslicense/general/option_label - Subscription
+veslicense/general/installment_label - installments
+veslicense/general/enabled - 1
+veslicense/general/label - FAQ
+veslicense/general/url_key - faq
+veslicense/general/add_to_toolbar_menu - 1
+veslicense/general/add_to_footer_menu - 1
+veslicense/general/standardSupplyDays - 28
+veslicense/general/guest_checkout - 1
+veslicense/general/create_account - 2
+veslicense/general/automatically_login - 1
+veslicense/general/cutoff_time - 16:00
+veslicense/general/weekdays - Array
+veslicense/general/holidays - Array
+veslicense/general/enable - 1
+veslicense/general/type_ahead - 1
+veslicense/general/enable_top_banner - 1
+veslicense/general/enable_after_banner - 1
+veslicense/general/enable_product_label - 1
+veslicense/general/show_one_banner - 1
+veslicense/general/add_log - 1
+veslicense/general/log_message - Price has been recalculated
+veslicense/general/cron_expr - */5 * * * *
+veslicense/general/test_mode - 1
+veslicense/general/test_subscription_ids - 000000137
+veslicense/general/new_order_status - processing
+veslicense/general/allow_edit_options - 1
+veslicense/general/extraDays - .00001
+veslicense/general/minimum_final - 4
+veslicense/general/fallback - 1
+veslicense/general/logo_image_upload - Array
+veslicense/general/is_enabled - 1
+veslicense/general/contact_area - Array
+veslicense/general/post_page - 4
+veslicense/general/total_post - 48
+veslicense/general/short_content - 110
+veslicense/general/category - 10
+veslicense/general/tag - 20
+veslicense/general/short_content_category - 150
+veslicense/general/all_articles_meta_description - Lorem Ipsum
+veslicense/general/all_category_link - https://preprod.justrightpetfood.com/blog/category/monthly-feature-article.html
+veslicense/general/enable_public_api - 1
+veslicense/general/cut_off_date - All updates must be made by 5:00pm EST on the Next Order Date in order to take effect in next order
+                
+veslicense/general/slack_days_2nd_order - 6
+veslicense/general/bundling - 1
+veslicense/general/tag_title - Blogs tagged with '{{tag_title}}'
+veslicense/general/collection_time - Array
+veslicense/general/expiry_calculation - static
+veslicense/general/refund_automatically - 1
+veslicense/general/deduct_automatically - 1
+veslicense/general/landing_page - reward-points
+veslicense/general/registration_use_inviter_group - 1
+veslicense/general/max_invitation_amount_per_send - 5
+veslicense/general/azure_general_service_bus_name - npus-pp-dtc-general-usea-bus
+veslicense/general/azure_service_bus_order_cancel_queue - jr-mage-orders-canceled
+veslicense/general/shared_access_key_name - RootSendAccessKey
+veslicense/general/shared_access_key - 5Ks5UKmleo1opsf9uI54UnJvFXHBOu3is/09mISMVb0=
+veslicense/general/debug - 1
+veslicense/general/access_token_api_endpoint - https://api.trustpilot.com/v1/oauth/oauth-business-users-for-applications/accesstoken
+veslicense/general/post_review_api_endpoint - https://www.trustpilot.com/evaluate/embed/justrightpetfood.tp-testing.com
+veslicense/general/update_review_api_endpoint - https://api.trustpilot.com/v1/private/reviews
+veslicense/general/tracking_id - UA-34990229-57
+veslicense/general/container_id - OPT-MV444RW
+veslicense/general/sdk_key - sdk-9451e1d5-4090-4f09-a157-22f471d542ad
+veslicense/general/client_side_id - 60a287f5a1a9c10e054aa205
+veslicense/general/po_address_validation_msg - Shipping to post office boxes is unavailable
+veslicense/general/po_address_warning_msg - Warning : Shipping to post office boxes is unavailable
+veslicense/general/ups_allocation_percentage - 100
+veslicense/general/mobile_key - mob-9d89d4ce-dda1-4280-9d74-26011cd7ad4a
+loflicense/general/Magento2EEmegamenu - sbna-pj1b-x667-eu7ev4j-hdi17i
+loflicense/general/min_chars - 3
+loflicense/general/delay - 500
+loflicense/general/index - Array
+loflicense/general/active - 1
+loflicense/general/allow_customer_cancel - 1
+loflicense/general/allow_customer_pause - 1
+loflicense/general/group_same_day - 1
+loflicense/general/enable_shipping_fallback - 1
+loflicense/general/default_to_one_time - 1
+loflicense/general/option_label - Subscription
+loflicense/general/installment_label - installments
+loflicense/general/enabled - 1
+loflicense/general/label - FAQ
+loflicense/general/url_key - faq
+loflicense/general/add_to_toolbar_menu - 1
+loflicense/general/add_to_footer_menu - 1
+loflicense/general/standardSupplyDays - 28
+loflicense/general/guest_checkout - 1
+loflicense/general/create_account - 2
+loflicense/general/automatically_login - 1
+loflicense/general/cutoff_time - 16:00
+loflicense/general/weekdays - Array
+loflicense/general/holidays - Array
+loflicense/general/enable - 1
+loflicense/general/type_ahead - 1
+loflicense/general/enable_top_banner - 1
+loflicense/general/enable_after_banner - 1
+loflicense/general/enable_product_label - 1
+loflicense/general/show_one_banner - 1
+loflicense/general/add_log - 1
+loflicense/general/log_message - Price has been recalculated
+loflicense/general/cron_expr - */5 * * * *
+loflicense/general/test_mode - 1
+loflicense/general/test_subscription_ids - 000000137
+loflicense/general/new_order_status - processing
+loflicense/general/allow_edit_options - 1
+loflicense/general/extraDays - .00001
+loflicense/general/minimum_final - 4
+loflicense/general/fallback - 1
+loflicense/general/logo_image_upload - Array
+loflicense/general/is_enabled - 1
+loflicense/general/contact_area - Array
+loflicense/general/post_page - 4
+loflicense/general/total_post - 48
+loflicense/general/short_content - 110
+loflicense/general/category - 10
+loflicense/general/tag - 20
+loflicense/general/short_content_category - 150
+loflicense/general/all_articles_meta_description - Lorem Ipsum
+loflicense/general/all_category_link - https://preprod.justrightpetfood.com/blog/category/monthly-feature-article.html
+loflicense/general/enable_public_api - 1
+loflicense/general/cut_off_date - All updates must be made by 5:00pm EST on the Next Order Date in order to take effect in next order
+                
+loflicense/general/slack_days_2nd_order - 6
+loflicense/general/bundling - 1
+loflicense/general/tag_title - Blogs tagged with '{{tag_title}}'
+loflicense/general/collection_time - Array
+loflicense/general/expiry_calculation - static
+loflicense/general/refund_automatically - 1
+loflicense/general/deduct_automatically - 1
+loflicense/general/landing_page - reward-points
+loflicense/general/registration_use_inviter_group - 1
+loflicense/general/max_invitation_amount_per_send - 5
+loflicense/general/azure_general_service_bus_name - npus-pp-dtc-general-usea-bus
+loflicense/general/azure_service_bus_order_cancel_queue - jr-mage-orders-canceled
+loflicense/general/shared_access_key_name - RootSendAccessKey
+loflicense/general/shared_access_key - 5Ks5UKmleo1opsf9uI54UnJvFXHBOu3is/09mISMVb0=
+loflicense/general/debug - 1
+loflicense/general/access_token_api_endpoint - https://api.trustpilot.com/v1/oauth/oauth-business-users-for-applications/accesstoken
+loflicense/general/post_review_api_endpoint - https://www.trustpilot.com/evaluate/embed/justrightpetfood.tp-testing.com
+loflicense/general/update_review_api_endpoint - https://api.trustpilot.com/v1/private/reviews
+loflicense/general/tracking_id - UA-34990229-57
+loflicense/general/container_id - OPT-MV444RW
+loflicense/general/sdk_key - sdk-9451e1d5-4090-4f09-a157-22f471d542ad
+loflicense/general/client_side_id - 60a287f5a1a9c10e054aa205
+loflicense/general/po_address_validation_msg - Shipping to post office boxes is unavailable
+loflicense/general/po_address_warning_msg - Warning : Shipping to post office boxes is unavailable
+loflicense/general/ups_allocation_percentage - 100
+loflicense/general/mobile_key - mob-9d89d4ce-dda1-4280-9d74-26011cd7ad4a
+purinaglobal_customer_restriction/purinaglobal_customer_enable/active - 1
+purinaglobal_customer_restriction/purinaglobal_customer_enable/content - Customer has not placed Order Before, Order Button will be disabled
+searchautocomplete/general/min_chars - 3
+searchautocomplete/general/delay - 500
+searchautocomplete/general/fast_mode - 0
+searchautocomplete/general/index - {"magento_catalog_category":{"order":"1","limit":"0"},"amasty_faq_question":{"order":"2","limit":"2"},"magento_catalog_categoryproduct":{"order":"3","limit":"0"},"catalogsearch_fulltext":{"order":"4","limit":"0"},"amasty_blog_post":{"order":"5","is_active":"1","limit":"2"},"magento_search_query":{"order":"6","is_active":"1","limit":"2"},"magento_cms_page":{"order":"7","is_active":"1","limit":"2"}}
+searchautocomplete/general/type_ahead - 0
+searchautocomplete/general/product/show_price - 0
+searchautocomplete/general/product/show_image - 0
+searchautocomplete/general/product/show_rating - 0
+searchautocomplete/general/product/show_description - 1
+searchautocomplete/general/product/show_sku - 0
+searchautocomplete/general/product/show_cart - 0
+searchautocomplete/general/product/optimize_mobile - 0
+searchautocomplete/general/appearance/layout - 2columns
+searchautocomplete/general/appearance/css - 
+searchautocomplete/popular/enabled - 0
+searchautocomplete/popular/default - 
+searchautocomplete/popular/ignored - 
+searchautocomplete/popular/limit - 3
+blend_details/navigation/back_url - create-a-blend
+blend_details/blend_product/sku - blend-bundle
+blend_details/blend_product/debug_blend_page - 0
+blend_details/blend_product/character_count_limit - 16
+blend_details/ab_testing/variation - 0
+amasty_checkout/general/enabled - 1
+amasty_checkout/general/allow_edit_options - 1
+amasty_checkout/general/title - Checkout
+amasty_checkout/general/description - Please enter your details below to complete your purchase.
+amasty_checkout/general/reload_shipping - 0
+amasty_checkout/general/bundling - 1
+amasty_checkout/additional_options/create_account - 2
+amasty_checkout/additional_options/automatically_login - 1
+amasty_checkout/additional_options/discount - 1
+amasty_checkout/additional_options/newsletter - 0
+amasty_checkout/additional_options/comment - 0
+amasty_checkout/design/font - 
+amasty_checkout/design/checkout_design - 0
+amasty_checkout/design/layout - 3columns
+amasty_checkout/design/place_button_layout - summary
+amasty_checkout/design/display_shipping_address_in - 0
+amasty_checkout/design/heading_color - 
+amasty_checkout/design/summary_color - 
+amasty_checkout/design/bg_color - 
+amasty_checkout/design/button_color - 
+amasty_checkout/design/header_footer - 1
+amasty_checkout/default_values/shipping_method - ups_03
+amasty_checkout/default_values/payment_method - cybersourceflex
+amasty_checkout/default_values/address_country_id - US
+amasty_checkout/default_values/address_region_id - 
+amasty_checkout/default_values/address_postcode - 
+amasty_checkout/default_values/address_city - 
+amasty_checkout/block_names/block_management - {"inherit":"0"}
+amasty_checkout/block_names/block_shipping_address - {"sort_order":"0","value":""}
+amasty_checkout/block_names/block_shipping_method - {"sort_order":"1","value":""}
+amasty_checkout/block_names/block_delivery - {"sort_order":"2","value":""}
+amasty_checkout/block_names/block_payment_method - {"sort_order":"3","value":""}
+amasty_checkout/block_names/block_order_summary - {"sort_order":"4","value":""}
+amasty_checkout/custom_blocks/top_block_id - 0
+amasty_checkout/custom_blocks/bottom_block_id - 119
+amasty_checkout/success_page/block_id - 0
+amasty_checkout/delivery_date/enabled - 0
+amasty_checkout/delivery_date/available_days - 
+amasty_checkout/geolocation/ip_detection - 0
+amasty_checkout/gifts/gift_wrap - 0
+amasty_checkout/layout_builder/layout_builder_config - {"classic":{"2columns":{"frontendColumns":2,"columnsWidth":[1,1],"axis":"both","cols":2,"layout":[{"i":"shipping_address","x":0,"y":0,"w":1,"h":1},{"i":"shipping_method","x":0,"y":1,"w":1,"h":1},{"i":"delivery","x":0,"y":2,"w":1,"h":1},{"i":"payment_method","x":1,"y":0,"w":1,"h":1},{"i":"summary","x":1,"y":1,"w":1,"h":1}]},"3columns":{"frontendColumns":3,"columnsWidth":[1,1,1],"axis":"both","cols":3,"layout":[{"i":"shipping_address","x":0,"y":0,"w":1,"h":1,"moved":false,"static":false},{"i":"shipping_method","x":1,"y":0,"w":1,"h":1,"moved":false,"static":false},{"i":"delivery","x":1,"y":1,"w":1,"h":1,"moved":false,"static":false},{"i":"payment_method","x":1,"y":2,"w":1,"h":1,"moved":false,"static":false},{"i":"summary","x":2,"y":0,"w":1,"h":1,"moved":false,"static":false}]}},"modern":{"1column":{"frontendColumns":1,"columnsWidth":[1],"axis":"both","cols":1,"layout":[{"i":"shipping_address","x":0,"y":0,"w":1,"h":1},{"i":"shipping_method","x":0,"y":1,"w":1,"h":1},{"i":"delivery","x":0,"y":2,"w":1,"h":1},{"i":"payment_method","x":0,"y":3,"w":1,"h":1},{"i":"summary","x":0,"y":4,"w":1,"h":1}]},"2columns":{"frontendColumns":2,"columnsWidth":[2,1],"axis":"y","cols":3,"layout":[{"i":"shipping_address","x":0,"y":0,"w":2,"h":1},{"i":"shipping_method","x":0,"y":1,"w":2,"h":1},{"i":"delivery","x":0,"y":2,"w":2,"h":1},{"i":"payment_method","x":0,"y":3,"w":2,"h":1},{"i":"summary","x":2,"y":0,"w":1,"h":1,"static":true,"axis":"x"}]},"3columns":{"frontendColumns":3,"columnsWidth":[1,1,1],"axis":"both","cols":3,"layout":[{"i":"shipping_address","x":0,"y":0,"w":1,"h":1},{"i":"shipping_method","x":1,"y":0,"w":1,"h":1},{"i":"delivery","x":1,"y":2,"w":1,"h":1},{"i":"payment_method","x":1,"y":3,"w":1,"h":1},{"i":"summary","x":2,"y":0,"w":1,"h":1}]}}}
+amasty_checkout/layout_builder/frontend_layout_config - [[{"name":"shipping_address","title":""}],[{"name":"shipping_method","title":""},{"name":"delivery","title":""},{"name":"payment_method","title":""}],[{"name":"summary","title":""}]]
+sales/gift_options/allow_order - 0
+sales/gift_options/allow_items - 0
+sales/instant_purchase/active - 0
+connector_api_credentials/api/trial_temporary_passcode_expiry - 2020-04-29T02:41:16-05:00
+connector_api_credentials/api/trial_temporary_passcode - s0rS3Abmgz91Ed9G2Q2ufrazSnntNKNH
+blend_component/blend_percentage/enable - 1
+blend_component/blend_percentage/default_component - Hero Chicken,Base,Shred,Small Bag,Hreo Beef,Beef,Option2
+shipping_restriction/general/enabled - 1
+shipping_restriction/general/cutoff_time - 16:00
+shipping_restriction/general/weekdays - 1,2,3,4,5
+shipping_restriction/general/holidays - {"_1580813475301_301":{"date":"01","month":"01","year":"2021","isRecuuring":"0"},"_1580988357611_611":{"date":"01","month":"01","year":"2022","isRecuuring":"0"},"_1580988415654_654":{"date":"24","month":"12","year":"2021","isRecuuring":"0"},"_1580988433655_655":{"date":"25","month":"12","year":"2021","isRecuuring":"0"},"_1580988443669_669":{"date":"31","month":"12","year":"2021","isRecuuring":"0"},"_1583135075232_232":{"date":"04","month":"07","year":"2021","isRecuuring":"0"},"_1583139633363_363":{"date":"31","month":"05","year":"2021","isRecuuring":"0"},"_1602536575318_318":{"date":"06","month":"09","year":"2021","isRecuuring":"0"},"_1602536584783_783":{"date":"25","month":"11","year":"2021","isRecuuring":"0"},"_1624564130206_206":{"date":"05","month":"07","year":"2021","isRecuuring":"0"}}
+purinajustright_pet_profile/petprofile/guidance_copy -                     a)  If the Customer selects Send Now after 5.00pm, then the Subscription Ship Date will be next day
+                    or the next available day.
+                    b) Subscription Ship Date can only be a valid ship date. Ship Days cannot be Sat and Sun of the
+                    week, holidays for Clinton and UPS.
+                    c) Subscription Ship Date And Actual Ship Date are reset to the same date.
+                    d) The system updates Subscription cadence when the shipping date changes.
+                    e) The system sends Subscription Update email to the Customer.
+                
+purinajustright_pet_profile/petprofile/cut_off_date - All updates must be made by 11am EST on the Next Order Date in order to take effect in next order
+                
+purinajustright_pet_profile/petprofile/order_processed - An order is being processed
+purinajustright_pet_profile/petprofile/csr_role_name - 26
+purinajustright_pet_profile/loadmore/incomplete - 4
+purinajustright_pet_profile/loadmore/complete - 2
+purinajustright_pet_profile/loadmore/number_to_load - 9
+purinajustright_pet_profile/loadmore/cancelled - 3
+purinajustright_pet_profile/mapping/basics - petName,healthGoals,gender,weight,primaryBreed,secondaryBreed,breedSize,birthMonth,birthYear
+purinajustright_pet_profile/mapping/health - bodyCondition,activityLevel,standQuality,coatCondition,skinCondition,eatActivity,stoolCondition
+purinajustright_pet_profile/mapping/diet - foodSensitivities,protein,additions
+purinajustright_pet_profile/guest_petprofile/guest_petprofile_sendemail_enable - 1
+purinajustright_pet_profile/guest_petprofile/magic_link_base_url - create-a-blend
+purinaglobal_shipping_restriction/state_filter/us_state_filter - Alaska,American Samoa,Armed Forces Africa,Armed Forces Americas,Armed Forces Canada,Armed Forces Europe,Armed Forces Middle East,Armed Forces Pacific,Federated States Of Micronesia,Guam,Hawaii,Marshall Islands,Northern Mariana Islands,Palau,Puerto Rico,Virgin Islands
+purinaglobal_shipping_restriction/zip_filter/enable - 1
+purinaglobal_shipping_restriction/zip_filter/us_zip_filter - 97601,97603,P.O. Box 123,09002,99591
+carriers/flatrate/handling_fee - 
+carriers/flatrate/specificcountry - 
+carriers/flatrate/showmethod - 0
+carriers/flatrate/sort_order - 
+carriers/flatrate/active - 0
+carriers/freeshipping/free_shipping_subtotal - 
+carriers/freeshipping/specificcountry - 
+carriers/freeshipping/showmethod - 0
+carriers/freeshipping/sort_order - 
+carriers/freeshipping/active - 0
+carriers/freeshipping/sallowspecific - 0
+carriers/tablerate/handling_fee - 
+carriers/tablerate/specificcountry - 
+carriers/tablerate/showmethod - 0
+carriers/tablerate/sort_order - 
+carriers/ups/active_rma - 0
+carriers/ups/negotiated_active - 0
+carriers/ups/shipper_number - 4659VA
+carriers/ups/handling_fee - 
+carriers/ups/free_shipping_enable - 1
+carriers/ups/specificcountry - 
+carriers/ups/showmethod - 0
+carriers/ups/debug - 1
+carriers/ups/sort_order - 
+carriers/ups/active - 1
+carriers/ups/username - ******
+carriers/ups/access_license_number - ******
+carriers/ups/password - ******
+carriers/ups/free_method - 03
+carriers/ups/free_shipping_subtotal - 0
+carriers/ups/allowed_methods - 03
+carriers/ups/mode_xml - 0
+carriers/usps/active_rma - 0
+carriers/usps/userid - 
+carriers/usps/password - 
+carriers/usps/handling_fee - 
+carriers/usps/free_shipping_enable - 1
+carriers/usps/specificcountry - 
+carriers/usps/debug - 0
+carriers/usps/showmethod - 0
+carriers/usps/sort_order - 
+carriers/usps/free_shipping_subtotal - 
+carriers/fedex/active_rma - 0
+carriers/fedex/account - ******
+carriers/fedex/meter_number - ******
+carriers/fedex/key - ******
+carriers/fedex/password - ******
+carriers/fedex/handling_fee - 
+carriers/fedex/residence_delivery - 1
+carriers/fedex/smartpost_hubid - 5531
+carriers/fedex/free_shipping_enable - 0
+carriers/fedex/specificcountry - 
+carriers/fedex/debug - 1
+carriers/fedex/showmethod - 0
+carriers/fedex/sort_order - 
+carriers/fedex/active - 1
+carriers/fedex/sandbox_mode - 1
+carriers/fedex/allowed_methods - GROUND_HOME_DELIVERY
+carriers/dhl/active_rma - 0
+carriers/dhl/id - 
+carriers/dhl/password - 
+carriers/dhl/handling_fee - 
+carriers/dhl/free_method_nondoc - 
+carriers/dhl/free_shipping_enable - 0
+carriers/dhl/specificcountry - 
+carriers/dhl/showmethod - 0
+carriers/dhl/debug - 0
+carriers/dhl/sandbox_mode - 0
+carriers/dhl/sort_order - 
+carriers/temando/active - 0
+carriers/temando/collectionpoints_countries - 
+carriers/temando/specificcountry - 
+carriers/temando/specificerrmsg - This shipping method is not available. To use this shipping method, please contact us.
+vertex_address_validation/vertex_settings/enable - 0
+vertex_address_validation/vertex_settings/always_message - 1
+amasty_banners_lite/general/enable_top_banner - 1
+amasty_banners_lite/general/enable_after_banner - 1
+amasty_banners_lite/general/enable_product_label - 1
+amasty_banners_lite/general/show_one_banner - 1
+purinajustright_recalculated_renewal/general/add_log - 0
+purinajustright_recalculated_renewal/general/log_message - Price has been recalculated
+purinajustright_recalculated_renewal/general/cron_expr - 0 1 * * *
+purinajustright_recalculated_renewal/general/test_mode - 0
+purinajustright_recalculated_renewal/general/test_subscription_ids - 000000137
+purinajustright_sales/general/cron_expr - */5 * * * *
+purinajustright_sales/order_pick_list/is_debug - 1
+purinajustright_sales/large_label/cron_expr - 0 1 * * *
+purinajustright_sales/order_replacement/cron_expr - 30 0 * * *
+purinajustright_sales/order_replacement/discount_code - FreeReplacementOrder
+purinajustright_sales/first_order/collection_limit - 5
+purinajustright_sales/pdf_generation/batch_size - 100
+purinajustright_sales/promo_code/text - CC details are captured to charge subsequent order installments
+purinajustright_sales/caching/debug_log - 1
+webapi/soap/charset - 
+webapi/webapisecurity/allow_insecure - 0
+multishipping/options/checkout_multiple - 0
+amaudit/log/log_enable_visit_history - 1
+amaudit/log/log_all_admins - 1
+amaudit/log/log_delete_logs_after_days - 90
+amaudit/log/log_delete_login_attempts_after_days - 90
+amaudit/log/log_delete_pages_history_after_days - 90
+amaudit/restore/restore_popup_message - Please be careful when restoring changes. It's recommended to have a backup before running restore process.
+amaudit/successful_log_mailing/enabled - 0
+amaudit/successful_log_mailing/template - amaudit_successful_log_mailing_template
+amaudit/successful_log_mailing/send_to_mail - 
+amaudit/unsuccessful_log_mailing/enabled - 0
+amaudit/unsuccessful_log_mailing/template - amaudit_unsuccessful_log_mailing_template
+amaudit/unsuccessful_log_mailing/send_to_mail - 
+amaudit/suspicious_log_mailing/enabled - 0
+amaudit/suspicious_log_mailing/template - amaudit_suspicious_log_mailing_template
+amaudit/suspicious_log_mailing/send_to_mail - 
+amaudit/phone_number/phone_number_code - telephone
+shipping/origin/region_id - 25
+shipping/origin/postcode - 52732
+shipping/origin/city - Clinton
+shipping/origin/street_line1 - 1650 Windsor Dr
+shipping/origin/street_line2 - 
+shipping/shipping_policy/enable_shipping_policy - 0
+shipping/shipping_policy/shipping_policy_content - 
+finalBlendGrossWeight/general/minimum_final - 4
+finalBlendGrossWeight/general/extraDays - .00001
+mageworx_settings/general/installed_data - {"mageworx\/module-seosuiteultimate":{"title":"SEO Suite Ultimate","version":"2.35.4","image":"https:\/\/www.mageworx.com\/media\/catalog\/product\/s\/e\/seo_suite_icon.png","user_guide":"https:\/\/support.mageworx.com\/manuals\/seosuite\/","url":"https:\/\/www.mageworx.com\/magento-2-seo-extension.html?utm_source=M2backend&utm_medium=extension&utm_campaign=recommendation","marketplace_link":"https:\/\/marketplace.magento.com\/mageworx-module-seosuiteultimate.html#bazaarvoice.reviews.tab","price":299,"rating":98,"review_count":317}}
+mageworx_settings/general/recommended_data - {"mageworx\/module-shippingrulesmeta":{"title":"Shipping Suite","version":"2.11.5","image":"https:\/\/www.mageworx.com\/media\/catalog\/product\/s\/h\/shipping_icon.png","user_guide":"https:\/\/support.mageworx.com\/manuals\/shipping_suite\/","url":"https:\/\/www.mageworx.com\/magento-2-shipping-suite.html?utm_source=M2backend&utm_medium=extension&utm_campaign=recommendation","marketplace_link":"https:\/\/marketplace.magento.com\/mageworx-module-shippingrulesmeta.html#bazaarvoice.reviews.tab","price":349,"rating":97,"review_count":94},"mageworx\/module-advancedproductoptions":{"title":"Advanced Product Options Suite","version":"2.35.5","image":"https:\/\/www.mageworx.com\/media\/catalog\/product\/a\/p\/apo_icon.png","user_guide":"https:\/\/support.mageworx.com\/manuals\/apo\/","url":"https:\/\/www.mageworx.com\/magento-2-advanced-product-options-suite.html?utm_source=M2backend&utm_medium=extension&utm_campaign=recommendation","marketplace_link":"https:\/\/marketplace.magento.com\/mageworx-module-advancedproductoptions.html#bazaarvoice.reviews.tab","price":299,"rating":94,"review_count":279},"mageworx\/module-deliverydatemeta":{"title":"Delivery Date ","version":"1.14.0","image":"https:\/\/www.mageworx.com\/media\/catalog\/product\/d\/e\/delivery_dat___time.png","user_guide":"https:\/\/support.mageworx.com\/manuals\/delivery-date\/","url":"https:\/\/www.mageworx.com\/delivery-date-magento-2.html?utm_source=M2backend&utm_medium=extension&utm_campaign=recommendation","marketplace_link":"https:\/\/marketplace.magento.com\/mageworx-module-deliverydatemeta.html#bazaarvoice.reviews.tab","price":179,"rating":99,"review_count":15},"mageworx\/module-storelocatormeta":{"title":"Store Locator & In-store Pickup","version":"1.10.0","image":"https:\/\/www.mageworx.com\/media\/catalog\/product\/s\/t\/store_locator_icon.png","user_guide":"https:\/\/support.mageworx.com\/manuals\/store-locator\/","url":"https:\/\/www.mageworx.com\/magento-2-store-locator-and-pickup.html?utm_source=M2backend&utm_medium=extension&utm_campaign=recommendation","marketplace_link":"https:\/\/marketplace.magento.com\/mageworx-module-storelocatormeta.html#bazaarvoice.reviews.tab","price":199,"rating":96,"review_count":14},"mageworx\/module-customerpricessuite":{"title":"Customer Prices Suite","version":"2.6.0","image":"https:\/\/www.mageworx.com\/media\/catalog\/product\/_\/u\/_ustomer_prices_suite_icon.png","user_guide":"https:\/\/support.mageworx.com\/manuals\/customer-prices-suite\/","url":"https:\/\/www.mageworx.com\/customer-prices-suite-magento-2.html?utm_source=M2backend&utm_medium=extension&utm_campaign=recommendation","marketplace_link":"https:\/\/marketplace.magento.com\/mageworx-module-customerpricessuite.html#bazaarvoice.reviews.tab","price":249,"rating":95,"review_count":2}}
+mageworx_seo/all/length/meta_title_max - 70
+mageworx_seo/all/length/meta_description_max - 170
+mageworx_seo/all/length/meta_keywords_max - 100
+mageworx_seo/all/length/h1_max - 70
+mageworx_seo/all/length/url_max - 
+mageworx_seo/base/use_next_prev - 1
+mageworx_seo/base/robots/noindex_follow_pages - ^checkout_.+,^customer_.+,^catalog_product_compare_.+,^rss_.+,.*?_product_send$,^wishlist_.+
+mageworx_seo/base/robots/noindex_follow_user_pages - amblog_amp_tag
+amblog_index_tag
+catalogsearch_result_index
+mageworx_seo/base/robots/noindex_nofollow_user_pages - 
+mageworx_seo/base/robots/category_ln_pages_robots - NOINDEX, FOLLOW
+mageworx_seo/base/robots/count_filters_for_noindex - 
+mageworx_seo/base/robots/attribute_settings - 
+mageworx_seo/base/robots/robots_for_ln_multiple - 1
+mageworx_seo/base/canonical/use_canonical - 1
+mageworx_seo/base/canonical/disable_by_robots - 1
+mageworx_seo/base/canonical/canonical_ignore_pages - 
+mageworx_seo/base/canonical/cross_domain_store - 1
+mageworx_seo/base/canonical/product_canonical_url_type - canonical_type_root
+mageworx_seo/base/canonical/associated_types - 
+mageworx_seo/base/canonical/trailing_slash_home_page - 0
+mageworx_seo/base/canonical/trailing_slash - 0
+mageworx_seo/base/canonical/use_pager_in_canonical - 1
+mageworx_seo/base/canonical/canonical_for_ln - 0
+mageworx_seo/base/hreflangs/scope - 0
+mageworx_seo/base/hreflangs/cms_relation_way - 0
+mageworx_seo/extended/meta/pager_in_title - beginning
+mageworx_seo/extended/meta/pager_in_description - beginning
+mageworx_seo/extended/meta/pager_in_keywords - beginning
+mageworx_seo/extended/meta/cut_title_prefix_suffix - 0
+mageworx_seo/extended/meta/cut_prefix_suffix_pages - 
+mageworx_seo/extended/meta/layered_filters_in_title - 1
+mageworx_seo/extended/meta/layered_filters_in_description - 1
+mageworx_seo/extended/meta/layered_filters_in_keywords - 0
+mageworx_seo/extended/seo_filters/use_seo_for_category_filters - 0
+mageworx_seo/extended/seo_filters/use_on_single_filter - 0
+mageworx_seo/breadcrumbs/enabled - 0
+mageworx_seo/markup/product/rs_enabled - 1
+mageworx_seo/markup/product/rs_enabled_for_specific_product - 1
+mageworx_seo/markup/product/ga_enabled - 1
+mageworx_seo/markup/product/ga_css_selector - .description
+mageworx_seo/markup/product/best_rating - 
+mageworx_seo/markup/product/add_reviews - 0
+mageworx_seo/markup/product/disable_default_review - 1
+mageworx_seo/markup/product/use_multiple_offer - 0
+mageworx_seo/markup/product/description_code - 0
+mageworx_seo/markup/product/crop_html_in_description - 0
+mageworx_seo/markup/product/sku_enabled - 0
+mageworx_seo/markup/product/category_enabled - 0
+mageworx_seo/markup/product/color_enabled - 0
+mageworx_seo/markup/product/manufacturer_enabled - 0
+mageworx_seo/markup/product/brand_enabled - 0
+mageworx_seo/markup/product/model_enabled - 0
+mageworx_seo/markup/product/gtin_enabled - 0
+mageworx_seo/markup/product/weight_enabled - 0
+mageworx_seo/markup/product/price_valid_until_default_value - 
+mageworx_seo/markup/product/product_id_code - 0
+mageworx_seo/markup/product/condition_enabled - 0
+mageworx_seo/markup/product/custom_prorerty_enabled - 0
+mageworx_seo/markup/product/custom_prorerties - 
+mageworx_seo/markup/open_graph/enabled_for_product - 0
+mageworx_seo/markup/open_graph/enabled_for_category - 1
+mageworx_seo/markup/open_graph/enabled_for_page - 0
+mageworx_seo/markup/open_graph/enabled_for_home_page - 1
+mageworx_seo/markup/open_graph/product_description_code - 0
+mageworx_seo/markup/tw_cards/enabled_for_product - 0
+mageworx_seo/markup/tw_cards/enabled_for_page - 0
+mageworx_seo/markup/tw_cards/enabled_for_home_page - 0
+mageworx_seo/markup/tw_cards/username - 
+mageworx_seo/markup/tw_cards/enabled_for_category - 0
+mageworx_seo/markup/tw_cards/product_description_code - 0
+mageworx_seo/markup/category/rs_enabled - 1
+mageworx_seo/markup/category/add_product_offers - 0
+mageworx_seo/markup/category/ga_enabled - 1
+mageworx_seo/markup/category/ga_css_selector - .category-description
+mageworx_seo/markup/category/robots_restriction - 1
+mageworx_seo/markup/page/ga_enabled - 1
+mageworx_seo/markup/page/ga_css_selector - .cms-content
+mageworx_seo/markup/website/rs_enabled - 1
+mageworx_seo/markup/website/description - 
+mageworx_seo/markup/website/website_use_search - 0
+mageworx_seo/markup/website/fb_app_id - 
+mageworx_seo/markup/website/name - 
+mageworx_seo/markup/website/og_image - 
+mageworx_seo/markup/seller/rs_enabled - 0
+mageworx_seo/markup/seller/type - LocalBusiness
+mageworx_seo/markup/seller/show_on_pages - all
+mageworx_seo/markup/seller/name - 
+mageworx_seo/markup/seller/description - 
+mageworx_seo/markup/seller/same_as_links - 
+mageworx_seo/markup/seller/phone - 
+mageworx_seo/markup/seller/fax - 
+mageworx_seo/markup/seller/email - 
+mageworx_seo/markup/seller/location - 
+mageworx_seo/markup/seller/region - 
+mageworx_seo/markup/seller/street - 
+mageworx_seo/markup/seller/post_code - 
+mageworx_seo/markup/seller/price_range - 
+mageworx_seo/markup/seller/image - 
+mageworx_seo/markup/breadcrumbs/rs_enabled - 1
+mageworx_seo/urls/category/use_in_attribute - 0
+mageworx_seo/urls/category/use_in_pager - 0
+mageworx_seo/urls/category/use_invert_redirect - 0
+mageworx_seo/seocrosslinks/enabled - 1
+mageworx_seo/seocrosslinks/replacement_count_product - 2
+mageworx_seo/seocrosslinks/replacement_count_category - 2
+mageworx_seo/seocrosslinks/replacement_count_cms_page - 2
+mageworx_seo/seocrosslinks/use_name_for_title - 2
+mageworx_seo/seocrosslinks/product_attributes - short_description,description
+mageworx_seo/seocrosslinks/default_target - 1
+mageworx_seo/seocrosslinks/default_reference - 0
+mageworx_seo/seocrosslinks/default_replacement_count - 1
+mageworx_seo/seocrosslinks/default_priority - 50
+mageworx_seo/seocrosslinks/default_status - 1
+mageworx_seo/seocrosslinks/default_destination - product_page,category_page,cms_page_content
+mageworx_seo/seoredirects/custom/enabled - 1
+mageworx_seo/seoredirects/custom/keep_for_deleted_entities - 0
+mageworx_seo/seoredirects/deleted_product/enabled - 0
+mageworx_seo/seoredirects/deleted_product/redirect_type - 301
+mageworx_seo/seoredirects/deleted_product/redirect_target - 0
+mageworx_seo/seoredirects/deleted_product/count_stable_day - 30
+mageworx_seo/seoxtemplates/use_product_seo_name - 0
+mageworx_seo/seoxtemplates/use_category_seo_name - 0
+mageworx_seo/seoxtemplates/crop_root_category - 1
+mageworx_seo/seoxtemplates/crop_meta_title - 0
+mageworx_seo/seoxtemplates/crop_meta_description - 0
+mageworx_seo/seoxtemplates/enabled_cron_notify - 0
+mageworx_seo/html_sitemap/show_stores - 0
+mageworx_seo/html_sitemap/show_categories - 0
+mageworx_seo/html_sitemap/category_max_depth - 
+mageworx_seo/html_sitemap/show_products - 0
+mageworx_seo/html_sitemap/use_cat_display_mode - 1
+mageworx_seo/html_sitemap/product_url_length - 1
+mageworx_seo/html_sitemap/cat_prod_sort_order - 1
+mageworx_seo/html_sitemap/show_cms_pages - 0
+mageworx_seo/html_sitemap/show_links - 0
+mageworx_seo/html_sitemap/additional_links - 
+mageworx_seo/html_sitemap/show_custom_links - 0
+mageworx_seo/html_sitemap/title - Site Map
+mageworx_seo/html_sitemap/meta_description - Easily navigate the Just Right site map to find what you need. Access useful pages such as the blog, contact information, FAQs, and more.
+mageworx_seo/html_sitemap/meta_keywords - sitemap, categories, products, pages
+mageworx_seo/xml_sitemap/homepage_optimize - 1
+mageworx_seo/xml_sitemap/product_image_source - cache
+mageworx_seo/xml_sitemap/product_video_include - 0
+mageworx_seo/xml_sitemap/category_image_include - 0
+mageworx_seo/xml_sitemap/enable_additional_links - 1
+mageworx_seo/xml_sitemap/additional_links - https://preprod.justrightpetfood.com/
+https://preprod.justrightpetfood.com/how-it-works
+https://preprod.justrightpetfood.com/ingredients
+https://preprod.justrightpetfood.com/experts
+https://preprod.justrightpetfood.com/create-a-blend
+https://preprod.justrightpetfood.com/testimonial
+https://preprod.justrightpetfood.com/contact
+https://preprod.justrightpetfood.com/faq/most-popular
+https://preprod.justrightpetfood.com/faq/product
+https://preprod.justrightpetfood.com/faq/shipping
+https://preprod.justrightpetfood.com/faq/payment
+https://preprod.justrightpetfood.com/faq/subscription
+https://preprod.justrightpetfood.com/blog
+https://preprod.justrightpetfood.com/blog/category/age-breed-size
+https://preprod.justrightpetfood.com/blog/category/health-nutrition
+https://preprod.justrightpetfood.com/blog/category/training-behavior
+https://preprod.justrightpetfood.com/blog/category/lifestyle-grooming
+https://preprod.justrightpetfood.com/blog/small-breed-nutrition-whats-best-dog-food-small-dog
+https://preprod.justrightpetfood.com/blog/whats-your-dogs-poop-telling-you
+https://preprod.justrightpetfood.com/blog/dog-skin-health
+https://preprod.justrightpetfood.com/blog/should-i-feed-my-dog-grain-free-food
+https://preprod.justrightpetfood.com/blog/ingredients-with-purpose-corn-gluten-meal-oat-meal-and-pea-protein
+https://preprod.justrightpetfood.com/blog/plant-protein-dog-food
+https://preprod.justrightpetfood.com/blog/complete-balanced-dog-food-pyramid
+https://preprod.justrightpetfood.com/blog/brain-games-for-dogs
+https://preprod.justrightpetfood.com/blog/dog-food-fillers
+https://preprod.justrightpetfood.com/blog/carbohydrates-dog-food
+https://preprod.justrightpetfood.com/blog/brush-dogs-teeth
+https://preprod.justrightpetfood.com/blog/5-tricks-for-keeping-your-dog-cool-at-home
+https://preprod.justrightpetfood.com/blog/dog-eating-cat-food
+https://preprod.justrightpetfood.com/blog/switching-dog-food
+https://preprod.justrightpetfood.com/blog/why-does-my-dog-eat-poop-and-how-to-stop-it
+https://preprod.justrightpetfood.com/blog/dog-body-condition-score
+https://preprod.justrightpetfood.com/blog/how-dogs-taste-food
+https://preprod.justrightpetfood.com/blog/experts-guide-17-answers-dog-nutrition-wellness-questions
+https://preprod.justrightpetfood.com/blog/benefits/brain-development
+https://preprod.justrightpetfood.com/blog/factretriever-animal-products-in-dog-food
+https://preprod.justrightpetfood.com/blog/dog-weight-gain
+https://preprod.justrightpetfood.com/blog/dog-weight-loss
+https://preprod.justrightpetfood.com/blog/4-tips-managing-dogs-weight-winter
+https://preprod.justrightpetfood.com/blog/how-much-water-does-a-dog-need
+
+mageworx_seo/xml_sitemap/exclude_out_of_stock_products - 0
+mageworx_seo/xml_sitemap/meta_robots_exclusion - 
+mageworx_seo/xml_sitemap/enable_validate_urls - 0
+mageworx_seo/xml_sitemap/check_urls_availability - 0
+mageworx_seo/xml_sitemap/xml_sitemap_mirasvit_blog/add_blog_pages - 0
+mageworx_seo/xml_sitemap/xml_sitemap_mageplaza_blog/add_blog_pages - 0
+mageworx_seo/xml_sitemap/xml_sitemap_aheadworks_blog/add_blog_pages - 0
+mageworx_seo/xml_sitemap/additional_links_changefreq - daily
+mageworx_seo/xml_sitemap/additional_links_priority - 0.2
+mageworx_seo/common_sitemap/trailing_slash_home_page - 0
+mageworx_seo/common_sitemap/trailing_slash - 0
+purinajustright_orderpackingslip/general/logo_image_upload - default/logo_justrightpetfoodcom.png
+google/analytics/type - tag_manager
+google/analytics/anonymize - 0
+google/analytics/experiments - 0
+google/analytics/container_id - GTM-KGQ2KV2
+google/analytics/catalog_page_list_value - Catalog Page
+google/analytics/crosssell_block_list_value - Cross-sell
+google/analytics/upsell_block_list_value - Up-sell
+google/analytics/related_block_list_value - Related Products
+google/analytics/search_page_list_value - Search Results
+google/analytics/promotions_list_value - Label
+google/analytics/active - 1
+purinaglobal_transaction_email/email_already_exist/enable - 0
+purinaglobal_transaction_email/email_already_exist/customer_key - email_exists
+purinaglobal_transaction_email/email_already_exist/subject - Register with an existing email
+purinaglobal_transaction_email/abandoned_cart/enable - 0
+purinaglobal_transaction_email/abandoned_cart/customer_key - Abandoned_Cart
+purinaglobal_transaction_email/abandoned_cart/subject - You have some items in your cart at Purina JustRight
+purinaglobal_transaction_email/abandoned_cart/email_reminder_rule_id - 1
+purinaglobal_transaction_email/abandoned_cart/send_guest_email_reminder - 10
+purinaglobal_transaction_email/abandoned_cart/enableLog - 1
+purinaglobal_transaction_email/customer_blend_continue/enable - 0
+purinaglobal_transaction_email/customer_blend_continue/static_email - 
+purinaglobal_transaction_email/customer_blend_continue/customer_key - Blend_Complete
+purinaglobal_transaction_email/customer_blend_continue/subject - You have complete blends at Purina JustRight
+purinaglobal_transaction_email/update_customer_email/enable - 1
+purinaglobal_transaction_email/update_customer_email/customer_key - update_activation
+purinaglobal_transaction_email/update_customer_email/subject - Email Update Activation Email
+purinaglobal_transaction_email/generic_payment_email/enable - 0
+purinaglobal_transaction_email/generic_payment_email/customer_key - Generic_Payment_Issue
+purinaglobal_transaction_email/generic_payment_email/subject - Payment Issue
+purinaglobal_transaction_email/subscription_cancel_email/enable - 1
+purinaglobal_transaction_email/subscription_cancel_email/customer_key - Subscription_Cancelled
+purinaglobal_transaction_email/subscription_cancel_email/subject - Subscription Cancelled
+purinaglobal_transaction_email/welcome_email/enable - 1
+purinaglobal_transaction_email/welcome_email/customer_key - Welcome
+purinaglobal_transaction_email/welcome_email/subject - Welcome to the Purina Store
+purinaglobal_transaction_email/subscription_pause_email/enable - 0
+purinaglobal_transaction_email/subscription_pause_email/customer_key - Subscription_Paused
+purinaglobal_transaction_email/subscription_pause_email/subject - Subscription Paused
+purinaglobal_transaction_email/subscription_reactivate_email/enable - 0
+purinaglobal_transaction_email/subscription_reactivate_email/customer_key - Subscription_Reactivated
+purinaglobal_transaction_email/subscription_reactivate_email/subject - Subscription Reactivated
+purinaglobal_transaction_email/sales_shipment_email/enable - 1
+purinaglobal_transaction_email/sales_shipment_email/customer_key - Shipment_Confirmation
+purinaglobal_transaction_email/sales_shipment_email/subject - Your Purina JustRight Order has shipped
+purinaglobal_transaction_email/employee_confirmation_success/enable - 0
+purinaglobal_transaction_email/employee_confirmation_success/message - Your Purina® Store Employee DISCOUNT activation was Successful. Login {online} to avail discounts . Thank you. 
+purinaglobal_transaction_email/employee_confirmation/enable - 0
+purinaglobal_transaction_email/password_reset_confirmation/enable - 0
+purinaglobal_transaction_email/password_reset_confirmation/customer_key - Reset_Password_Confirmation
+purinaglobal_transaction_email/password_reset_confirmation/subject - Purina Store, Password Reset Confirmation
+purinaglobal_transaction_email/password_reset_confirmation/message - Your Purina® Store password was reset today. If you did not reset your password or request your password to be reset, please contact Purina immediately {online} or call 8x00-579-7733 . Thank you. 
+purinaglobal_transaction_email/newsletter_status/enable - 0
+purinaglobal_transaction_email/newsletter_status/customer_key - Newsletter_Status
+purinaglobal_transaction_email/newsletter_status/subject - Purina Store,  Newsletter subscription
+purinaglobal_transaction_email/password_reset/enable - 0
+purinaglobal_transaction_email/password_reset/customer_key - Reset_Password
+purinaglobal_transaction_email/password_reset/subject - Purina Store,  Forgot Password
+purinaglobal_transaction_email/customer_account_changes/enable - 1
+purinaglobal_transaction_email/customer_account_changes/customer_key - Customer_Account_Changes
+purinaglobal_transaction_email/customer_account_changes/subject - Your Purina Store account has been updated.
+purinaglobal_transaction_email/sales_order_email/enable - 0
+purinaglobal_transaction_email/sales_order_email/customer_key - Order_Confirmation
+purinaglobal_transaction_email/sales_order_email/subject - Purina Store:  Order
+purinaglobal_transaction_email/alacarte_confirmation/enable - 0
+purinaglobal_transaction_email/alacarte_approval/enable - 0
+purinaglobal_transaction_email/subscription_start/enable - 0
+purinaglobal_transaction_email/subscription_start/customer_key - Subscription_Start
+purinaglobal_transaction_email/subscription_start/subject - Subscription Order start
+purinaglobal_transaction_email/subscription_update/enable - 0
+purinaglobal_transaction_email/subscription_order_reminder/enable - 0
+purinaglobal_transaction_email/subscription_order_reminder/customer_key - Subscription_Order_Reminder
+purinaglobal_transaction_email/subscription_order_reminder/subject - Subscription Order Reminder
+purinaglobal_transaction_email/subscription_discontinue/enable - 0
+purinaglobal_transaction_email/subscription_price_update/enable - 0
+purinaglobal_transaction_email/subscription_order_confirmation_email/enable - 0
+purinaglobal_transaction_email/subscription_order_confirmation_email/customer_key - Order_Confirmation
+purinaglobal_transaction_email/subscription_order_confirmation_email/subject - Purina JustRight:  Order
+purinaglobal_transaction_email/subscription_change_date/enable - 0
+purinaglobal_transaction_email/subscription_change_date/customer_key - 
+purinaglobal_transaction_email/subscription_change_date/subject - 
+purinaglobal_transaction_email/account_requested/enable - 0
+purinaglobal_transaction_email/account_requested/customer_key - Account_Requested
+purinaglobal_transaction_email/account_requested/subject - Account request on update action
+purinaglobal_transaction_email/abandoned_blend/enable - 1
+purinaglobal_transaction_email/abandoned_blend/customer_key - Abandoned_Blend
+purinaglobal_transaction_email/abandoned_blend/subject - You have abandoned blends at Purina JustRight
+purinaglobal_transaction_email/abandoned_blend/send_guest_blend_abandoned - 10
+purinaglobal_transaction_email/blend_complete/enable - 1
+purinaglobal_transaction_email/blend_complete/customer_key - Blend_Complete
+purinaglobal_transaction_email/blend_complete/subject - You have complete blends at Purina JustRight
+purinaglobal_transaction_email/blend_complete/send_blend_complete - 10
+purinaglobal_transaction_email/sms_email_opt_status/enable - 1
+purinaglobal_transaction_email/sms_email_opt_status/enable_sms_api - 1
+misspell/general/active - 1
+misspell/general/fallback - 0
+purinaglobal_integration_filestack/basic_configurations/enable - 1
+purinaglobal_integration_filestack/basic_configurations/api_key - 0:3:uWlFRWGJuikv+P3a8yxFO5WfKuxpJIQWAQW7q1buIIfatpoLAPcdQYaj3R0lbDfsNec=
+purinaglobal_integration_filestack/basic_configuration/enable - 1
+purinaglobal_integration_filestack/security_configuration/enable_secured - 1
+purinaglobal_integration_filestack/security_configuration/force_secured - 0
+purinaglobal_integration_filestack/security_configuration/configured_default_expiry - 3600
+purinaglobal_integration_filestack/security_configuration/api_key - ******
+purinaglobal_integration_filestack/security_configuration/secret - ******
+nestle_newrelic/general/enable - 1
+justright_contact/general/enable - 1
+justright_contact/general/contact_area - {"_1588110594539_539":{"contact_area":"ingredients_nutrition","contact_email":"care_test@justrightpetfood.com"},"_1588110597238_238":{"contact_area":"create_new_blend_account","contact_email":"care_test@justrightpetfood.com"},"_1588110599690_690":{"contact_area":"manage_my_account","contact_email":"care_test@justrightpetfood.com"},"_1588110602597_597":{"contact_area":"orders_and_subscriptions","contact_email":"care_test@justrightpetfood.com"},"_1588110606182_182":{"contact_area":"other_area","contact_email":"care_test@justrightpetfood.com"}}
+chat_api_credentials/settings/enabled - 0
+amblog/display_settings/label - Blog
+amblog/display_settings/display_at_footer - 1
+amblog/display_settings/display_at_toolbar - 1
+amblog/display_settings/display_at_category - 0
+amblog/search_engine/bread - 
+amblog/search_engine/route - blog
+amblog/search_engine/title - 
+amblog/search_engine/title_suffix - 
+amblog/search_engine/meta_title - 
+amblog/search_engine/meta_keywords - 
+amblog/search_engine/meta_description - 
+amblog/search_engine/organization_name - 
+amblog/search_engine/show_blog_structured_data - 1
+amblog/layout/mobile_list - {
+  "layout": "two-columns-right",
+  "left_side": [],
+  "right_side": [],
+  "content": [
+    "grid"
+  ]
+}
+amblog/layout/mobile_post - {
+  "layout": "two-columns-right",
+  "left_side": [],
+  "right_side": [],
+  "content": [
+    "post"
+  ]
+}
+amblog/layout/desktop_list - {
+  "layout": "one-column",
+  "left_side": [],
+  "right_side": [],
+  "content": [
+    "grid"
+  ]
+}
+amblog/layout/desktop_post - {
+  "layout": "one-column",
+  "left_side": [],
+  "right_side": [],
+  "content": [
+    "post"
+  ]
+}
+amblog/redirect/url_postfix - 
+amblog/redirect/redirect_to_seo_formatted_url - 1
+amblog/list/count_per_page - 12
+amblog/post/display_author - 0
+amblog/post/display_print - 0
+amblog/post/display_categories - 1
+amblog/post/categories_limit - 
+amblog/post/display_tags - 1
+amblog/post/date_manner - passed
+amblog/post/image_width - 400
+amblog/post/image_height - 270
+amblog/post/helpful - 0
+amblog/comments/use_comments - 0
+amblog/comments/gdpr_text - I agree to the <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+amblog/notify_admin_new_comment/enabled - 0
+amblog/notify_admin_new_comment/receiver - 
+amblog/recent_posts/record_limit - 5
+amblog/recent_posts/display_short - 0
+amblog/recent_posts/display_date - 0
+amblog/recent_posts/display_image - 1
+amblog/recent_posts/image_width - 60
+amblog/recent_posts/image_height - 60
+amblog/tags/minimal_post_count - 1
+amblog/tags/mt_enabled - 1
+amblog/tags/mt_height - 300
+amblog/tags/mt_textcolor - #111111
+amblog/tags/mt_textcolor2 - #297aa3
+amblog/tags/mt_hicolor - #111111
+amblog/tags/presetted_colors - _select_
+amblog/social/enabled - 1
+amblog/social/networks - twitter,facebook,pinterest
+amblog/style/color_sheme - -classic
+amblog/accelerated_mobile_pages/enabled - 0
+justright_blog/general/post_page - 4
+justright_blog/general/total_post - 48
+justright_blog/general/short_content - 110
+justright_blog/general/category - 10
+justright_blog/general/tag - 20
+justright_blog/general/all_category_link - 
+justright_blog/general/short_content_category - 150
+justright_blog/general/all_articles_meta_description - 
+justright_blog/general/tag_title - Blogs tagged with '{{tag_title}}'
+custom_search/basic/show_images - 1
+custom_search/basic/no_result_faq_category_id - 105
+autodelivery_contents/address_auto_delivery_contents/enable - 1
+autodelivery_contents/address_auto_delivery_contents/block_id - address_auto_delivery_contents
+autodelivery_contents/creditcard_auto_delivery_contents/enable - 1
+autodelivery_contents/creditcard_auto_delivery_contents/block_id - creditcard_auto_delivery_contents
+subscription_shipping_management/general/cut_off_date - All updates must be made by 5:00pm EST on the Next Order Date in order to take effect in next order
+                
+subscription_shipping_management/general/enabled - 1
+subscription_shipping_management/general/slack_days_2nd_order - 6
+subscription_shipping_management/general/slack_days_3d_order_onwards - 0
+subscription_shipping_management/general/po_address_validation_msg - Shipping to post office boxes is unavailable
+subscription_shipping_management/general/po_address_warning_msg - Warning : Shipping to post office boxes is unavailable
+subscription_shipping_management/general/ups_allocation_percentage - 100
+cms/wysiwyg/use_static_urls_in_catalog - 0
+cms/hierarchy/enabled - 1
+cms/hierarchy/metadata_enabled - 1
+cms/hierarchy/menu_layout - content
+cms/pagebuilder/enabled - 1
+cms/pagebuilder/google_maps_api_key - 
+cms/pagebuilder/google_maps_style - 
+historical_pricing/performance/tier_price_cache_enabled - 1
+historical_pricing/performance/calculate_cache_enabled - 1
+purinaglobal_bill_now/bill_now/active - 1
+justright_sfmc_consumer/consumer_data_config/enable - 0
+justright_sfmc_consumer/consumer_data_config/file_dir_path - /Import/PreProd_Magento
+justright_sfmc_consumer/consumer_data_config/ftp_host - mcrsx21jdt187fc0n0kxm4w71dyq.ftp.marketingcloudops.com
+justright_sfmc_consumer/consumer_data_config/ftp_port - 22
+justright_sfmc_consumer/consumer_data_config/ftp_username - 7296655
+justright_sfmc_consumer/consumer_data_config/ftp_password - ******
+justright_sfmc_consumer/consumer_data_config/schedule - 15 4 * * *
+justright_sfmc_consumer/consumer_data_config/ftp_mode_binary - 0
+justright_sfmc_consumer/consumer_data_config/ftp_mode_passive - 0
+justright_sfmc_consumer/consumer_data_config/ftp_file_name - PJR_Master_Batch_Data_{{var fileDate}}.csv
+justright_sfmc_consumer/consumer_data_config/export_mode - daily
+promo/magento_reminder/enabled - 1
+promo/magento_reminder/frequency - I
+promo/magento_reminder/interval - 5
+promo/magento_reminder/time - 00,00,00
+promo/magento_reminder/limit - 100
+promo/magento_reminder/threshold - 1
+promo/magento_reminder/identity - general
+promo/auto_generated_coupon_codes/prefix - 
+promo/auto_generated_coupon_codes/suffix - 
+promo/auto_generated_coupon_codes/dash - 
+justright/calculation_fields/round_down_increment_value - 0.125
+adobe_stock/integration/enabled - 0
+adobe_ims/integration/api_key - 
+adobe_ims/integration/private_key - 
+purinajustright_googletagmanager/general/enable - 1
+sales_email/order/copy_to - 
+sales_email/order/enabled - 0
+sales_email/order_comment/copy_to - 
+sales_email/order_comment/enabled - 0
+sales_email/invoice/enabled - 0
+sales_email/invoice/copy_to - 
+sales_email/invoice_comment/copy_to - 
+sales_email/invoice_comment/enabled - 0
+sales_email/shipment/copy_to - 
+sales_email/shipment/enabled - 0
+sales_email/shipment_comment/copy_to - 
+sales_email/creditmemo/copy_to - 
+sales_email/creditmemo_comment/copy_to - 
+sales_email/magento_rma/enabled - 0
+sales_email/magento_rma/identity - sales
+sales_email/magento_rma/template - sales_email_magento_rma_template
+sales_email/magento_rma/guest_template - sales_email_magento_rma_guest_template
+sales_email/magento_rma/copy_to - 
+sales_email/magento_rma/copy_method - bcc
+sales_email/magento_rma_auth/enabled - 0
+sales_email/magento_rma_auth/identity - sales
+sales_email/magento_rma_auth/template - sales_email_magento_rma_auth_template
+sales_email/magento_rma_auth/guest_template - sales_email_magento_rma_auth_guest_template
+sales_email/magento_rma_auth/copy_to - 
+sales_email/magento_rma_auth/copy_method - bcc
+sales_email/magento_rma_comment/enabled - 0
+sales_email/magento_rma_comment/identity - sales
+sales_email/magento_rma_comment/template - sales_email_magento_rma_comment_template
+sales_email/magento_rma_comment/guest_template - sales_email_magento_rma_comment_guest_template
+sales_email/magento_rma_comment/copy_to - 
+sales_email/magento_rma_comment/copy_method - bcc
+sales_email/magento_rma_customer_comment/enabled - 0
+sales_email/magento_rma_customer_comment/identity - support
+sales_email/magento_rma_customer_comment/recipient - sales
+sales_email/magento_rma_customer_comment/template - sales_email_magento_rma_customer_comment_template
+sales_email/magento_rma_customer_comment/copy_to - 
+sales_email/magento_rma_customer_comment/copy_method - bcc
+vesall/general/enable_bootstrap_js - 0
+vesall/general/enable_owlcarousel - 0
+vesall/general/enable_colorbox - 0
+vesall/general/enable_fancybox - 0
+vesall/general/custom_css - 
+purinaglobal_customer_error/customer_error/enable - 1
+wishlist/general/active - 0
+wishlist/wishlist_link/use_qty - 0
+trans_email/ident_general/name - Just Right Pet Food
+trans_email/ident_general/email - noreply@justrightpetfood.com
+trans_email/ident_sales/name - Just Right Pet Food
+trans_email/ident_sales/email - noreply@justrightpetfood.com
+trans_email/ident_support/name - Just Right Pet Food
+trans_email/ident_support/email - noreply@justrightpetfood.com
+trans_email/ident_custom1/name - Just Right Pet Food
+trans_email/ident_custom1/email - noreply@justrightpetfood.com
+trans_email/ident_custom2/name - Just Right Pet Food
+trans_email/ident_custom2/email - noreply@justrightpetfood.com
+sitemap/generate/time - 00,00,00
+sitemap/generate/frequency - D
+sitemap/generate/error_email - 
+packaging_algorithm/settings/logic - volume
+blend_creation/cab_settings/show_irp - 0
+blend_creation/cab_settings/email_position - 0
+blend_creation/googleoptimize/tracking_id - UA-34990229-57
+blend_creation/googleoptimize/container_id - OPT-MV444RW
+blend_creation/croppie_settings/quality - 80
+order_cancellation_azure_service_bus/general/azure_general_service_bus_name - npus-pp-dtc-general-usea-bus
+order_cancellation_azure_service_bus/general/azure_service_bus_order_cancel_queue - jr-mage-orders-canceled
+order_cancellation_azure_service_bus/general/shared_access_key_name - RootSendAccessKey
+order_cancellation_azure_service_bus/general/shared_access_key - ******
+purinaglobal_azure_integrations/general/debug - 1
+purinajustright_trust_pilot_review/general/enabled - 1
+purinajustright_trust_pilot_review/general/access_token_api_endpoint - https://api.trustpilot.com/v1/oauth/oauth-business-users-for-applications/accesstoken
+purinajustright_trust_pilot_review/general/post_review_api_endpoint - https://www.trustpilot.com/evaluate/embed/justrightpetfood.tp-testing.com
+purinajustright_trust_pilot_review/general/update_review_api_endpoint - https://api.trustpilot.com/v1/private/reviews
+purinajustright_trust_pilot_review/authentication/api_key - ******
+purinajustright_trust_pilot_review/authentication/secret_key - ******
+purinajustright_trust_pilot_review/authentication/username - ******
+purinajustright_trust_pilot_review/authentication/password - ******
+purinajustright_trust_pilot_review/authentication/url_secret_key - ******
+purinaglobal_csr_order_restriction/purinaglobal_csr_order_enable/enable - 1
+purinaglobal_csr_order_restriction/purinaglobal_csr_order_enable/csr_role_name - 26
+purinajustright_customer/validation/invalid_character_in_names - <>{}[]!@#$+=%^*()/;`\"?|-
+purinajustright_cron_resource_usage/configuration/enable - 0
+purinajustright_csr_discount/subscription_coupon/is_form_enabled - 1
+msp_securitysuite_recaptcha/frontend/enabled - 0
+msp_securitysuite_recaptcha/backend/enabled - 0
+login_as_customer/general/enabled - 0
+justright_cards/general/enable - 1
+purinaglobal_integration_launchdarkly/general/sdk_key - ******
+purinaglobal_integration_launchdarkly/general/mobile_key - ******
+purinaglobal_integration_launchdarkly/general/client_side_id - 60a287f5a1a9c10e054aa205
+purinaglobal_integration_launchdarkly/general/enable - 1
+flat_rate_pricing/flat_rate_packaging/enable - 1
+flat_rate_pricing/flat_rate_packaging/component_id - 48
+flat_rate_pricing/flat_rate_shipping/enable - 1
+flat_rate_pricing/flat_rate_shipping/component_id - 49
+amasty_address_autocomplete/general/google_address_suggestion - 0
+dev/static/sign - 1
+dev/grid/async_indexing - 0
+dev/template/allow_symlink - 0
+dev/template/minify_html - 1
+dev/css/minify_files - 1
+dev/js/minify_files - 0
