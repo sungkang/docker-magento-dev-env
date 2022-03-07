@@ -38,7 +38,9 @@ recommended resource settings:
 7. `bin/start` to start up the containers
 8. Get the provided magento sql dump file (ask any of the devs) and save it in `db/` as `magento.sql`
 9. `bin/seed-magento-db`
-10. `bin/copytocontainer --all`
-11. `bin/composer build-and-test`
-12. `bin/sync-master-data`
-13. `bin/setup-domain justrightpetfood.local`
+10. `bin/restart-no-sync`
+11. `bin/copytocontainer --all`
+12. `bin/composer build-and-test`
+13. `bin/sync-master-data`
+14. `bin/magento app:config:import`
+15. `bin/setup-domain justrightpetfood.local`
