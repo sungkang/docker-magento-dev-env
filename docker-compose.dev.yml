@@ -10,6 +10,10 @@ services:
       - ./src/composer.json:/var/www/html/composer.json:cached
       - ./src/composer.lock:/var/www/html/composer.lock:cached
       - ./src/nginx.conf.sample:/var/www/html/nginx.conf:cached
+      - /Users/mike/dev/justright/purina-us-justright-react-addons/dist-addons-bdp:/var/www/html/pub/addons-bdp:cached
+      - /Users/mike/dev/justright/purina-us-justright-react-addons/dist-addons-tab:/var/www/html/pub/addons-tab:cached
+      - /Users/mike/dev/justright/purina-us-justright-module-react-app/build:/var/www/html/pub/create-a-blend:cached
+      - /Users/mike/dev/justright/purina-us-justright-module-react-blend-tab/build:/var/www/html/pub/blend-tab:cached
       #- ./src/auth.json:/var/www/html/auth.json:cached
       #- ./src/m2-hotfixes:/var/www/html/m2-hotfixes:cached
       #- ./src/patches:/var/www/html/patches:cached
