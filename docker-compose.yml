@@ -1,7 +1,7 @@
 ## Mark Shust's Docker Configuration for Magento
 ## (https://github.com/markshust/docker-magento)
 ##
-## Version 41.1.0
+## Version 42.0.0
 
 ## To use SSH, see https://github.com/markshust/docker-magento#ssh
 ## Linux users, see https://github.com/markshust/docker-magento#linux
@@ -59,7 +59,7 @@ services:
     extra_hosts: *appextrahosts
 
   elasticsearch:
-    image: markoshust/magento-elasticsearch:7.9.3-1
+    image: markoshust/magento-elasticsearch:7.16-0
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -74,7 +74,7 @@ services:
     extra_hosts: *appextrahosts
 
   rabbitmq:
-    image: rabbitmq:3.8.22-management-alpine
+    image: markoshust/magento-rabbitmq:3.9-0
     ports:
       - "15672:15672"
       - "5672:5672"
@@ -88,6 +88,13 @@ services:
     ports:
       - "1080:1080"
     extra_hosts: *appextrahosts
+
+  ## Blackfire support, uncomment to enable
+  #blackfire:
+  #  image: blackfire/blackfire:2
+  #  ports:
+  #    - "8307"
+  #  env_file: env/blackfire.env
 
   ## Selenium support, uncomment to enable
   #selenium:
