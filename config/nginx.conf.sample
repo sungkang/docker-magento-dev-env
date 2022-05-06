@@ -97,6 +97,14 @@ location / {
     try_files $uri $uri/ /index.php$is_args$args;
 }
 
+location /create-a-blend {
+    location ~ ^/create-a-blend/$ {
+        return 301 https://$host/create-a-blend$is_args$args;
+    }
+
+    try_files $uri $uri/index.html =404;
+}
+
 location /pub/ {
     location ~ ^/pub/media/(downloadable|customer|import|custom_options|theme_customization/.*\.xml) {
         deny all;
